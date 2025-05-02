@@ -9,7 +9,7 @@ st.set_page_config(page_title="Choropleth Map", page_icon="🗺️")
 st.title("แผนที่มลพิษรายอำเภอ (Choropleth)")
 
 # 1. โหลด GeoJSON อำเภอ
-with open("gadm41_THA_2.json", "r", encoding="utf-8") as f:
+with open("../save/gadm41_THA_2.json", "r", encoding="utf-8") as f:
     amphoe_geojson = json.load(f)
 
 st.write(amphoe_geojson)
@@ -17,8 +17,8 @@ st.write(len(amphoe_geojson))
 
 # 2. โหลดข้อมูลค่ามลพิษ (เช่น pm2.5) รายอำเภอ
 # ต้องมีคอลัมน์: "amphoe_code" (หรือรหัสอำเภอที่ตรงกับ GeoJSON) และ "pm25"
-df = pd.read_parquet("../../save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
-df_code = pd.read_csv("../../save/amphoe.csv")
+df = pd.read_parquet("../save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
+df_code = pd.read_csv("../save/amphoe.csv")
 
 # แสดงตัวอย่างข้อมูล
 # st.dataframe(df.head())

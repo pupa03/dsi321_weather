@@ -21,7 +21,7 @@ st.sidebar.image(logo)
 st.title("Heatmap")
 
 
-df = pd.read_parquet("save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
+df = pd.read_parquet("../save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
 
 # st.write(df.head())
 
@@ -48,4 +48,4 @@ with st.expander("See source code"):
         )
 
 
-m.to_streamlit(height=800)
+m.to_streamlit(height=1200)
