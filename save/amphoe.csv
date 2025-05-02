@@ -1,0 +1,927 @@
+﻿_id,province_id,province,amphoe_id,area_id,amphoe,romanized_amphoe,amphoe_short,romanized_amphoe_short
+1,10,กรุงเทพมหานคร,1001,10010000,เขตพระนคร,Khet Phra Nakhon,พระนคร,Phra Nakhon
+2,10,กรุงเทพมหานคร,1002,10020000,เขตดุสิต,Khet Dusit,ดุสิต,Dusit
+3,10,กรุงเทพมหานคร,1003,10030000,เขตหนองจอก,Khet Nong Khaem,หนองจอก,Nong Khaem
+4,10,กรุงเทพมหานคร,1004,10040000,เขตบางรัก,Khet Bang Rak,บางรัก,Bang Rak
+5,10,กรุงเทพมหานคร,1005,10050000,เขตบางเขน,Khet Bang Khen,บางเขน,Bang Khen
+6,10,กรุงเทพมหานคร,1006,10060000,เขตบางกะปิ,Khet Bang Kapi,บางกะปิ,Bang Kapi
+7,10,กรุงเทพมหานคร,1007,10070000,เขตปทุมวัน,Khet Pathum Wan,ปทุมวัน,Pathum Wan
+8,10,กรุงเทพมหานคร,1008,10080000,เขตป้อมปราบศัตรูพ่าย,Khet Pom Prap Sattru Phai,ป้อมปราบศัตรูพ่าย,Pom Prap Sattru Phai
+9,10,กรุงเทพมหานคร,1009,10090000,เขตพระโขนง,Khet Phra Khanong,พระโขนง,Phra Khanong
+10,10,กรุงเทพมหานคร,1010,10100000,เขตมีนบุรี,Khet Min Buri,มีนบุรี,Min Buri
+11,10,กรุงเทพมหานคร,1011,10110000,เขตลาดกระบัง,Khet Lat Krabang,ลาดกระบัง,Lat Krabang
+12,10,กรุงเทพมหานคร,1012,10120000,เขตยานนาวา,Khet Yan Nawa,ยานนาวา,Yan Nawa
+13,10,กรุงเทพมหานคร,1013,10130000,เขตสัมพันธวงศ์,Khet Samphanthawong,สัมพันธวงศ์,Samphanthawong
+14,10,กรุงเทพมหานคร,1014,10140000,เขตพญาไท,Khet Phaya Thai,พญาไท,Phaya Thai
+15,10,กรุงเทพมหานคร,1015,10150000,เขตธนบุรี,Khet Thon Buri,ธนบุรี,Thon Buri
+16,10,กรุงเทพมหานคร,1016,10160000,เขตบางกอกใหญ่,Khet Bangkok Yai,บางกอกใหญ่,Bangkok Yai
+17,10,กรุงเทพมหานคร,1017,10170000,เขตห้วยขวาง,Khet Huai Khwang,ห้วยขวาง,Huai Khwang
+18,10,กรุงเทพมหานคร,1018,10180000,เขตคลองสาน,Khet Khlong San,คลองสาน,Khlong San
+19,10,กรุงเทพมหานคร,1019,10190000,เขตตลิ่งชัน,Khet Taling Chan,ตลิ่งชัน,Taling Chan
+20,10,กรุงเทพมหานคร,1020,10200000,เขตบางกอกน้อย,Khet Bangkok Noi,บางกอกน้อย,Bangkok Noi
+21,10,กรุงเทพมหานคร,1021,10210000,เขตบางขุนเทียน,Khet Bang Khun Thian,บางขุนเทียน,Bang Khun Thian
+22,10,กรุงเทพมหานคร,1022,10220000,เขตภาษีเจริญ,Khet Phasi Charoen,ภาษีเจริญ,Phasi Charoen
+23,10,กรุงเทพมหานคร,1023,10230000,เขตหนองแขม,Khet Nong Chok,หนองแขม,Nong Chok
+24,10,กรุงเทพมหานคร,1024,10240000,เขตราษฎร์บูรณะ,Khet Rat Burana,ราษฎร์บูรณะ,Rat Burana
+25,10,กรุงเทพมหานคร,1025,10250000,เขตบางพลัด,Khet Bang Phlat,บางพลัด,Bang Phlat
+26,10,กรุงเทพมหานคร,1026,10260000,เขตดินแดง,Khet Din Daeng,ดินแดง,Din Daeng
+27,10,กรุงเทพมหานคร,1027,10270000,เขตบึงกุ่ม,Khet Bueng Kum,บึงกุ่ม,Bueng Kum
+28,10,กรุงเทพมหานคร,1028,10280000,เขตสาทร,Khet Sathon,สาทร,Sathon
+29,10,กรุงเทพมหานคร,1029,10290000,เขตบางซื่อ,Khet Bang Sue,บางซื่อ,Bang Sue
+30,10,กรุงเทพมหานคร,1030,10300000,เขตจตุจักร,Khet Chatuchak,จตุจักร,Chatuchak
+31,10,กรุงเทพมหานคร,1031,10310000,เขตบางคอแหลม,Khet Bang Kho Laem,บางคอแหลม,Bang Kho Laem
+32,10,กรุงเทพมหานคร,1032,10320000,เขตประเวศ,Khet Prawet,ประเวศ,Prawet
+33,10,กรุงเทพมหานคร,1033,10330000,เขตคลองเตย,Khet Khlong Toei,คลองเตย,Khlong Toei
+34,10,กรุงเทพมหานคร,1034,10340000,เขตสวนหลวง,Khet Suan Luang,สวนหลวง,Suan Luang
+35,10,กรุงเทพมหานคร,1035,10350000,เขตจอมทอง,Khet Chom Thong,จอมทอง,Chom Thong
+36,10,กรุงเทพมหานคร,1036,10360000,เขตดอนเมือง,Khet Don Mueang,ดอนเมือง,Don Mueang
+37,10,กรุงเทพมหานคร,1037,10370000,เขตราชเทวี,Khet Ratchathewi,ราชเทวี,Ratchathewi
+38,10,กรุงเทพมหานคร,1038,10380000,เขตลาดพร้าว,Khet Lat Phrao,ลาดพร้าว,Lat Phrao
+39,10,กรุงเทพมหานคร,1039,10390000,เขตวัฒนา,Khet Vadhana,วัฒนา,Vadhana
+40,10,กรุงเทพมหานคร,1040,10400000,เขตบางแค,Khet Bang Khae,บางแค,Bang Khae
+41,10,กรุงเทพมหานคร,1041,10410000,เขตหลักสี่,Khet Lak Si,หลักสี่,Lak Si
+42,10,กรุงเทพมหานคร,1042,10420000,เขตสายไหม,Khet Sai Mai,สายไหม,Sai Mai
+43,10,กรุงเทพมหานคร,1043,10430000,เขตคันนายาว,Khet Khan Na Yao,คันนายาว,Khan Na Yao
+44,10,กรุงเทพมหานคร,1044,10440000,เขตสะพานสูง,Khet Saphan Sung,สะพานสูง,Saphan Sung
+45,10,กรุงเทพมหานคร,1045,10450000,เขตวังทองหลาง,Khet Wang Thonglang,วังทองหลาง,Wang Thonglang
+46,10,กรุงเทพมหานคร,1046,10460000,เขตคลองสามวา,Khet Khlong Sam Wa,คลองสามวา,Khlong Sam Wa
+47,10,กรุงเทพมหานคร,1047,10470000,เขตบางนา,Khet Bang Na,บางนา,Bang Na
+48,10,กรุงเทพมหานคร,1048,10480000,เขตทวีวัฒนา,Khet Thawi Watthana,ทวีวัฒนา,Thawi Watthana
+49,10,กรุงเทพมหานคร,1049,10490000,เขตทุ่งครุ,Khet Thung Khru,ทุ่งครุ,Thung Khru
+50,10,กรุงเทพมหานคร,1050,10500000,เขตบางบอน,khet Bang Bon,บางบอน,Bang Bon
+51,11,สมุทรปราการ,1101,11010000,อำเภอเมืองสมุทรปราการ,Amphoe Mueang Samut Prakan,เมืองสมุทรปราการ,Mueang Samut Prakan
+52,11,สมุทรปราการ,1102,11020000,อำเภอบางบ่อ,Amphoe Bang Bo,บางบ่อ,Bang Bo
+53,11,สมุทรปราการ,1103,11030000,อำเภอบางพลี,Amphoe Bang Phli,บางพลี,Bang Phli
+54,11,สมุทรปราการ,1104,11040000,อำเภอพระประแดง,Amphoe Phra Pradaeng,พระประแดง,Phra Pradaeng
+55,11,สมุทรปราการ,1105,11050000,อำเภอพระสมุทรเจดีย์,Amphoe Phra Samut Chedi,พระสมุทรเจดีย์,Phra Samut Chedi
+56,11,สมุทรปราการ,1106,11060000,อำเภอบางเสาธง,Amphoe Bang Sao Thong,บางเสาธง,Bang Sao Thong
+57,12,นนทบุรี,1201,12010000,อำเภอเมืองนนทบุรี,Amphoe Mueang Nonthaburi,เมืองนนทบุรี,Mueang Nonthaburi
+58,12,นนทบุรี,1202,12020000,อำเภอบางกรวย,Amphoe Bang Kruai,บางกรวย,Bang Kruai
+59,12,นนทบุรี,1203,12030000,อำเภอบางใหญ่,Amphoe Bang Yai,บางใหญ่,Bang Yai
+60,12,นนทบุรี,1204,12040000,อำเภอบางบัวทอง,Amphoe Bang Bua Thong,บางบัวทอง,Bang Bua Thong
+61,12,นนทบุรี,1205,12050000,อำเภอไทรน้อย,Amphoe Sai Noi,ไทรน้อย,Sai Noi
+62,12,นนทบุรี,1206,12060000,อำเภอปากเกร็ด,Amphoe Pak Kret,ปากเกร็ด,Pak Kret
+63,13,ปทุมธานี,1301,13010000,อำเภอเมืองปทุมธานี,Amphoe Mueang Pathum Thani,เมืองปทุมธานี,Mueang Pathum Thani
+64,13,ปทุมธานี,1302,13020000,อำเภอคลองหลวง,Amphoe Khlong Luang,คลองหลวง,Khlong Luang
+65,13,ปทุมธานี,1303,13030000,อำเภอธัญบุรี,Amphoe Thanyaburi,ธัญบุรี,Thanyaburi
+66,13,ปทุมธานี,1304,13040000,อำเภอหนองเสือ,Amphoe Nong Suea,หนองเสือ,Nong Suea
+67,13,ปทุมธานี,1305,13050000,อำเภอลาดหลุมแก้ว,Amphoe Lat Lum Kaeo,ลาดหลุมแก้ว,Lat Lum Kaeo
+68,13,ปทุมธานี,1306,13060000,อำเภอลำลูกกา,Amphoe Lam Luk Ka,ลำลูกกา,Lam Luk Ka
+69,13,ปทุมธานี,1307,13070000,อำเภอสามโคก,Amphoe Sam Khok,สามโคก,Sam Khok
+70,14,พระนครศรีอยุธยา,1401,14010000,อำเภอพระนครศรีอยุธยา,Amphoe Phra Nakhon Si Ayutthaya,พระนครศรีอยุธยา,Phra Nakhon Si Ayutthaya
+71,14,พระนครศรีอยุธยา,1402,14020000,อำเภอท่าเรือ,Amphoe Tha Ruea,ท่าเรือ,Tha Ruea
+72,14,พระนครศรีอยุธยา,1403,14030000,อำเภอนครหลวง,Amphoe Nakhon Luang,นครหลวง,Nakhon Luang
+73,14,พระนครศรีอยุธยา,1404,14040000,อำเภอบางไทร,Amphoe Bang Sai,บางไทร,Bang Sai
+74,14,พระนครศรีอยุธยา,1405,14050000,อำเภอบางบาล,Amphoe Bang Ban,บางบาล,Bang Ban
+75,14,พระนครศรีอยุธยา,1406,14060000,อำเภอบางปะอิน,Amphoe Bang Pa-in,บางปะอิน,Bang Pa-in
+76,14,พระนครศรีอยุธยา,1407,14070000,อำเภอบางปะหัน,Amphoe Bang Pahan,บางปะหัน,Bang Pahan
+77,14,พระนครศรีอยุธยา,1408,14080000,อำเภอผักไห่,Amphoe Phak Hai,ผักไห่,Phak Hai
+78,14,พระนครศรีอยุธยา,1409,14090000,อำเภอภาชี,Amphoe Phachi,ภาชี,Phachi
+79,14,พระนครศรีอยุธยา,1410,14100000,อำเภอลาดบัวหลวง,Amphoe Lat Bua Luang,ลาดบัวหลวง,Lat Bua Luang
+80,14,พระนครศรีอยุธยา,1411,14110000,อำเภอวังน้อย,Amphoe Wang Noi,วังน้อย,Wang Noi
+81,14,พระนครศรีอยุธยา,1412,14120000,อำเภอเสนา,Amphoe Sena,เสนา,Sena
+82,14,พระนครศรีอยุธยา,1413,14130000,อำเภอบางซ้าย,Amphoe Bang Sai,บางซ้าย,Bang Sai
+83,14,พระนครศรีอยุธยา,1414,14140000,อำเภออุทัย,Amphoe Uthai,อุทัย,Uthai
+84,14,พระนครศรีอยุธยา,1415,14150000,อำเภอมหาราช,Amphoe Maha Rat,มหาราช,Maha Rat
+85,14,พระนครศรีอยุธยา,1416,14160000,อำเภอบ้านแพรก,Amphoe Ban Phraek,บ้านแพรก,Ban Phraek
+86,15,อ่างทอง,1501,15010000,อำเภอเมืองอ่างทอง,Amphoe Mueang Ang Thong,เมืองอ่างทอง,Mueang Ang Thong
+87,15,อ่างทอง,1502,15020000,อำเภอไชโย,Amphoe Chaiyo,ไชโย,Chaiyo
+88,15,อ่างทอง,1503,15030000,อำเภอป่าโมก,Amphoe Pa Mok,ป่าโมก,Pa Mok
+89,15,อ่างทอง,1504,15040000,อำเภอโพธิ์ทอง,Amphoe Pho Thong,โพธิ์ทอง,Pho Thong
+90,15,อ่างทอง,1505,15050000,อำเภอแสวงหา,Amphoe Sawaeng Ha,แสวงหา,Sawaeng Ha
+91,15,อ่างทอง,1506,15060000,อำเภอวิเศษชัยชาญ,Amphoe Wiset Chai Chan,วิเศษชัยชาญ,Wiset Chai Chan
+92,15,อ่างทอง,1507,15070000,อำเภอสามโก้,Amphoe Samko,สามโก้,Samko
+93,16,ลพบุรี,1601,16010000,อำเภอเมืองลพบุรี,Amphoe Mueang Lop Buri,เมืองลพบุรี,Mueang Lop Buri
+94,16,ลพบุรี,1602,16020000,อำเภอพัฒนานิคม,Amphoe Phatthana Nikhom,พัฒนานิคม,Phatthana Nikhom
+95,16,ลพบุรี,1603,16030000,อำเภอโคกสำโรง,Amphoe Khok Samrong,โคกสำโรง,Khok Samrong
+96,16,ลพบุรี,1604,16040000,อำเภอชัยบาดาล,Amphoe Chai Badan,ชัยบาดาล,Chai Badan
+97,16,ลพบุรี,1605,16050000,อำเภอท่าวุ้ง,Amphoe Tha Wung,ท่าวุ้ง,Tha Wung
+98,16,ลพบุรี,1606,16060000,อำเภอบ้านหมี่,Amphoe Ban Mi,บ้านหมี่,Ban Mi
+99,16,ลพบุรี,1607,16070000,อำเภอท่าหลวง,Amphoe Tha Luang,ท่าหลวง,Tha Luang
+100,16,ลพบุรี,1608,16080000,อำเภอสระโบสถ์,Amphoe Sa Bot,สระโบสถ์,Sa Bot
+101,16,ลพบุรี,1609,16090000,อำเภอโคกเจริญ,Amphoe Khok Charoen,โคกเจริญ,Khok Charoen
+102,16,ลพบุรี,1610,16100000,อำเภอลำสนธิ,Amphoe Lam Sonthi,ลำสนธิ,Lam Sonthi
+103,16,ลพบุรี,1611,16110000,อำเภอหนองม่วง,Amphoe Nong Muang,หนองม่วง,Nong Muang
+104,17,สิงห์บุรี,1701,17010000,อำเภอเมืองสิงห์บุรี,Amphoe Mueang Sing Buri,เมืองสิงห์บุรี,Mueang Sing Buri
+105,17,สิงห์บุรี,1702,17020000,อำเภอบางระจัน,Amphoe Bang Rachan,บางระจัน,Bang Rachan
+106,17,สิงห์บุรี,1703,17030000,อำเภอค่ายบางระจัน,Amphoe Khai Bang Rachan,ค่ายบางระจัน,Khai Bang Rachan
+107,17,สิงห์บุรี,1704,17040000,อำเภอพรหมบุรี,Amphoe Phrom Buri,พรหมบุรี,Phrom Buri
+108,17,สิงห์บุรี,1705,17050000,อำเภอท่าช้าง,Amphoe Tha Chang,ท่าช้าง,Tha Chang
+109,17,สิงห์บุรี,1706,17060000,อำเภออินทร์บุรี,Amphoe In Buri,อินทร์บุรี,In Buri
+110,18,ชัยนาท,1801,18010000,อำเภอเมืองชัยนาท,Amphoe Mueang Chai Nat,เมืองชัยนาท,Mueang Chai Nat
+111,18,ชัยนาท,1802,18020000,อำเภอมโนรมย์,Amphoe Manorom,มโนรมย์,Manorom
+112,18,ชัยนาท,1803,18030000,อำเภอวัดสิงห์,Amphoe Wat Sing,วัดสิงห์,Wat Sing
+113,18,ชัยนาท,1804,18040000,อำเภอสรรพยา,Amphoe Sapphaya,สรรพยา,Sapphaya
+114,18,ชัยนาท,1805,18050000,อำเภอสรรคบุรี,Amphoe Sankhaburi,สรรคบุรี,Sankhaburi
+115,18,ชัยนาท,1806,18060000,อำเภอหันคา,Amphoe Hankha,หันคา,Hankha
+116,18,ชัยนาท,1807,18070000,อำเภอหนองมะโมง,Amphoe Nong Mamong,หนองมะโมง,Nong Mamong
+117,18,ชัยนาท,1808,18080000,อำเภอเนินขาม,Amphoe Noen Kham,เนินขาม,Noen Kham
+118,19,สระบุรี,1901,19010000,อำเภอเมืองสระบุรี,Amphoe Mueang Saraburi,เมืองสระบุรี,Mueang Saraburi
+119,19,สระบุรี,1902,19020000,อำเภอแก่งคอย,Amphoe Kaeng Khoi,แก่งคอย,Kaeng Khoi
+120,19,สระบุรี,1903,19030000,อำเภอหนองแค,Amphoe Nong Khae,หนองแค,Nong Khae
+121,19,สระบุรี,1904,19040000,อำเภอวิหารแดง,Amphoe Wihan Daeng,วิหารแดง,Wihan Daeng
+122,19,สระบุรี,1905,19050000,อำเภอหนองแซง,Amphoe Nong Saeng,หนองแซง,Nong Saeng
+123,19,สระบุรี,1906,19060000,อำเภอบ้านหมอ,Amphoe Ban Mo,บ้านหมอ,Ban Mo
+124,19,สระบุรี,1907,19070000,อำเภอดอนพุด,Amphoe Don Phut,ดอนพุด,Don Phut
+125,19,สระบุรี,1908,19080000,อำเภอหนองโดน,Amphoe Nong Don,หนองโดน,Nong Don
+126,19,สระบุรี,1909,19090000,อำเภอพระพุทธบาท,Amphoe Phra Phutthabat,พระพุทธบาท,Phra Phutthabat
+127,19,สระบุรี,1910,19100000,อำเภอเสาไห้,Amphoe Sao Hai,เสาไห้,Sao Hai
+128,19,สระบุรี,1911,19110000,อำเภอมวกเหล็ก,Amphoe Muak Lek,มวกเหล็ก,Muak Lek
+129,19,สระบุรี,1912,19120000,อำเภอวังม่วง,Amphoe Wang Muang,วังม่วง,Wang Muang
+130,19,สระบุรี,1913,19130000,อำเภอเฉลิมพระเกียติ,Amphoe Chaloem Phra Kiat,เฉลิมพระเกียรติ,Chaloem Phra Kiat
+131,20,ชลบุรี,2001,20010000,อำเภอเมืองชลบุรี,Amphoe Mueang Chon Buri,เมืองชลบุรี,Mueang Chon Buri
+132,20,ชลบุรี,2002,20020000,อำเภอบ้านบึง,Amphoe Ban Bueng,บ้านบึง,Ban Bueng
+133,20,ชลบุรี,2003,20030000,อำเภอหนองใหญ่,Amphoe Nong Yai,หนองใหญ่,Nong Yai
+134,20,ชลบุรี,2004,20040000,อำเภอบางละมุง,Amphoe Bang Lamung,บางละมุง,Bang Lamung
+135,20,ชลบุรี,2005,20050000,อำเภอพานทอง,Amphoe Phan Thong,พานทอง,Phan Thong
+136,20,ชลบุรี,2006,20060000,อำเภอพนัสนิคม,Amphoe Phanat Nikhom,พนัสนิคม,Phanat Nikhom
+137,20,ชลบุรี,2007,20070000,อำเภอศรีราชา,Amphoe Si Racha,ศรีราชา,Si Racha
+138,20,ชลบุรี,2008,20080000,อำเภอเกาะสีชัง,Amphoe Ko Si  Chang,เกาะสีชัง,Ko Si  Chang
+139,20,ชลบุรี,2009,20090000,อำเภอสัตหีบ,Amphoe Sattahip,สัตหีบ,Sattahip
+140,20,ชลบุรี,2010,20100000,อำเภอบ่อทอง,Amphoe Bo Thong,บ่อทอง,Bo Thong
+141,20,ชลบุรี,2011,20110000,อำเภอเกาะจันทร์,Amphoe Ko Chan,เกาะจันทร์,Ko Chan
+142,21,ระยอง,2101,21010000,อำเภอเมืองระยอง,Amphoe Mueang Rayong,เมืองระยอง,Mueang Rayong
+143,21,ระยอง,2102,21020000,อำเภอบ้านฉาง,Amphoe Ban Chang,บ้านฉาง,Ban Chang
+144,21,ระยอง,2103,21030000,อำเภอแกลง,Amphoe Klaeng,แกลง,Klaeng
+145,21,ระยอง,2104,21040000,อำเภอวังจันทร์,Amphoe Wang Chan,วังจันทร์,Wang Chan
+146,21,ระยอง,2105,21050000,อำเภอบ้านค่าย,Amphoe Ban Khai,บ้านค่าย,Ban Khai
+147,21,ระยอง,2106,21060000,อำเภอปลวกแดง,Amphoe Pluak Daeng,ปลวกแดง,Pluak Daeng
+148,21,ระยอง,2107,21070000,อำเภอเขาชะเมา,Amphoe Khao Chamao,เขาชะเมา,Khao Chamao
+149,21,ระยอง,2108,21080000,อำเภอนิคมพัฒนา,Amphoe Nikhom Phatthana,นิคมพัฒนา,Nikhom Phatthana
+150,22,จันทบุรี,2201,22010000,อำเภอเมืองจันทบุรี,Amphoe Mueang Chanthaburi,เมืองจันทบุรี,Mueang Chanthaburi
+151,22,จันทบุรี,2202,22020000,อำเภอขลุง,Amphoe Khlung,ขลุง,Khlung
+152,22,จันทบุรี,2203,22030000,อำเภอท่าใหม่,Amphoe Tha Mai,ท่าใหม่,Tha Mai
+153,22,จันทบุรี,2204,22040000,อำเภอโป่งน้ำร้อน,Amphoe Pong Nam Ron,โป่งน้ำร้อน,Pong Nam Ron
+154,22,จันทบุรี,2205,22050000,อำเภอมะขาม,Amphoe Makham,มะขาม,Makham
+155,22,จันทบุรี,2206,22060000,อำเภอแหลมสิงห์,Amphoe Laem Sing,แหลมสิงห์,Laem Sing
+156,22,จันทบุรี,2207,22070000,อำเภอสอยดาว,Amphoe Soi Dao,สอยดาว,Soi Dao
+157,22,จันทบุรี,2208,22080000,อำเภอแก่งหางแมว,Amphoe Kaeng Hang Maeo,แก่งหางแมว,Kaeng Hang Maeo
+158,22,จันทบุรี,2209,22090000,อำเภอนายายอาม,Amphoe Na Yai Am,นายายอาม,Na Yai Am
+159,22,จันทบุรี,2210,22100000,อำเภอเขาคิชฌกูฏ,Amphoe Khao Khitchakut,เขาคิชฌกูฏ,Khao Khitchakut
+160,23,ตราด,2301,23010000,อำเภอเมืองตราด,Amphoe Mueang Trat,เมืองตราด,Mueang Trat
+161,23,ตราด,2302,23020000,อำเภอคลองใหญ่,Amphoe Khlong Yai,คลองใหญ่,Khlong Yai
+162,23,ตราด,2303,23030000,อำเภอเขาสมิง,Amphoe Khao Saming,เขาสมิง,Khao Saming
+163,23,ตราด,2304,23040000,อำเภอบ่อไร่,Amphoe Bo Rai,บ่อไร่,Bo Rai
+164,23,ตราด,2305,23050000,อำเภอแหลมงอบ,Amphoe Laem Ngop,แหลมงอบ,Laem Ngop
+165,23,ตราด,2306,23060000,อำเภอเกาะกูด,Amphoe Ko Kut,เกาะกูด,Ko Kut
+166,23,ตราด,2307,23070000,อำเภอเกาะช้าง,Amphoe Ko Chang,เกาะช้าง,Ko Chang
+167,24,ฉะเชิงเทรา,2401,24010000,อำเภอเมืองฉะเชิงเทรา,Amphoe Mueang Chachoengsao,เมืองฉะเชิงเทรา,Mueang Chachoengsao
+168,24,ฉะเชิงเทรา,2402,24020000,อำเภอบางคล้า,Amphoe Bang Khla,บางคล้า,Bang Khla
+169,24,ฉะเชิงเทรา,2403,24030000,อำเภอบางน้ำเปรี้ยว,Amphoe Bang Nam Priao,บางน้ำเปรี้ยว,Bang Nam Priao
+170,24,ฉะเชิงเทรา,2404,24040000,อำเภอบางปะกง,Amphoe Bang Pakong,บางปะกง,Bang Pakong
+171,24,ฉะเชิงเทรา,2405,24050000,อำเภอบ้านโพธิ์,Amphoe Ban Pho,บ้านโพธิ์,Ban Pho
+172,24,ฉะเชิงเทรา,2406,24060000,อำเภอพนมสารคาม,Amphoe Phanom Sarakham,พนมสารคาม,Phanom Sarakham
+173,24,ฉะเชิงเทรา,2407,24070000,อำเภอราชสาส์น,Amphoe Ratchasan,ราชสาส์น,Ratchasan
+174,24,ฉะเชิงเทรา,2408,24080000,อำเภอสนามชัยเขต,Amphoe Sanam Chai Khet,สนามชัยเขต,Sanam Chai Khet
+175,24,ฉะเชิงเทรา,2409,24090000,อำเภอแปลงยาว,Amphoe Plaeng Yao,แปลงยาว,Plaeng Yao
+176,24,ฉะเชิงเทรา,2410,24100000,อำเภอท่าตะเกียบ,Amphoe Tha Takiap,ท่าตะเกียบ,Tha Takiap
+177,24,ฉะเชิงเทรา,2411,24110000,อำเภอคลองเขื่อน,Amphoe Khlong Khuean,คลองเขื่อน,Khlong Khuean
+178,25,ปราจีนบุรี,2501,25010000,อำเภอเมืองปราจีนบุรี,Amphoe Mueang Prachin Buri,เมืองปราจีนบุรี,Mueang Prachin Buri
+179,25,ปราจีนบุรี,2502,25020000,อำเภอกบินทร์บุรี,Amphoe Kabin Buri,กบินทร์บุรี,Kabin Buri
+180,25,ปราจีนบุรี,2503,25030000,อำเภอนาดี,Amphoe Na Di,นาดี,Na Di
+181,25,ปราจีนบุรี,2506,25060000,อำเภอบ้านสร้าง,Amphoe Ban Sang,บ้านสร้าง,Ban Sang
+182,25,ปราจีนบุรี,2507,25070000,อำเภอประจันตคาม,Amphoe Prachantakham,ประจันตคาม,Prachantakham
+183,25,ปราจีนบุรี,2508,25080000,อำเภอศรีมหาโพธิ,Amphoe Si Maha Phot,ศรีมหาโพธิ,Si Maha Phot
+184,25,ปราจีนบุรี,2509,25090000,อำเภอศรีมโหสถ,Amphoe Si Mahosot,ศรีมโหสถ,Si Mahosot
+185,26,นครนายก,2601,26010000,อำเภอเมืองนครนายก,Amphoe Mueang Nakhon Nayok,เมืองนครนายก,Mueang Nakhon Nayok
+186,26,นครนายก,2602,26020000,อำเภอปากพลี,Amphoe Pak Phli,ปากพลี,Pak Phli
+187,26,นครนายก,2603,26030000,อำเภอบ้านนา,Amphoe Ban Na,บ้านนา,Ban Na
+188,26,นครนายก,2604,26040000,อำเภอองครักษ์,Amphoe Ongkharak,องครักษ์,Ongkharak
+189,27,สระแก้ว,2701,27010000,อำเภอเมืองสระแก้ว,Amphoe Mueang Sa Kaeo,เมืองสระแก้ว,Mueang Sa Kaeo
+190,27,สระแก้ว,2702,27020000,อำเภอคลองหาด,Amphoe Khlong Hat,คลองหาด,Khlong Hat
+191,27,สระแก้ว,2703,27030000,อำเภอตาพระยา,Amphoe Ta Phraya,ตาพระยา,Ta Phraya
+192,27,สระแก้ว,2704,27040000,อำเภอวังน้ำเย็น,Amphoe Wang Nam Yen,วังน้ำเย็น,Wang Nam Yen
+193,27,สระแก้ว,2705,27050000,อำเภอวัฒนานคร,Amphoe Watthana Nakhon,วัฒนานคร,Watthana Nakhon
+194,27,สระแก้ว,2706,27060000,อำเภออรัญประเทศ,Amphoe Aranyaprathet,อรัญประเทศ,Aranyaprathet
+195,27,สระแก้ว,2707,27070000,อำเภอเขาฉกรรจ์,Amphoe Khao Chakan,เขาฉกรรจ์,Khao Chakan
+196,27,สระแก้ว,2708,27080000,อำเภอโคกสูง,Amphoe Khok Sung,โคกสูง,Khok Sung
+197,27,สระแก้ว,2709,27090000,อำเภอวังสมบูรณ์,Amphoe Wang Sombun,วังสมบูรณ์,Wang Sombun
+198,30,นครราชสีมา,3001,30010000,อำเภอเมืองนครราชสีมา,Amphoe Mueang Nakhon Ratchasima,เมืองนครราชสีมา,Mueang Nakhon Ratchasima
+199,30,นครราชสีมา,3002,30020000,อำเภอครบุรี,Amphoe Khon Buri,ครบุรี,Khon Buri
+200,30,นครราชสีมา,3003,30030000,อำเภอเสิงสาง,Amphoe Soeng Sang,เสิงสาง,Soeng Sang
+201,30,นครราชสีมา,3004,30040000,อำเภอคง,Amphoe Khong,คง,Khong
+202,30,นครราชสีมา,3005,30050000,อำเภอบ้านเหลื่อม,Amphoe Ban Lueam,บ้านเหลื่อม,Ban Lueam
+203,30,นครราชสีมา,3006,30060000,อำเภอจักราช,Amphoe Chakkarat,จักราช,Chakkarat
+204,30,นครราชสีมา,3007,30070000,อำเภอโชคชัย,Amphoe Chok Chai,โชคชัย,Chok Chai
+205,30,นครราชสีมา,3008,30080000,อำเภอด่านขุนทด,Amphoe Dan Khun Thot,ด่านขุนทด,Dan Khun Thot
+206,30,นครราชสีมา,3009,30090000,อำเภอโนนไทย,Amphoe Non Thai,โนนไทย,Non Thai
+207,30,นครราชสีมา,3010,30100000,อำเภอโนนสูง,Amphoe Non Sung,โนนสูง,Non Sung
+208,30,นครราชสีมา,3011,30110000,อำเภอขามสะแกแสง,Amphoe Kham Sakaesaeng,ขามสะแกแสง,Kham Sakaesaeng
+209,30,นครราชสีมา,3012,30120000,อำเภอบัวใหญ่,Amphoe Bua Yai,บัวใหญ่,Bua Yai
+210,30,นครราชสีมา,3013,30130000,อำเภอประทาย,Amphoe Prathai,ประทาย,Prathai
+211,30,นครราชสีมา,3014,30140000,อำเภอปักธงชัย,Amphoe Pak Thong Chai,ปักธงชัย,Pak Thong Chai
+212,30,นครราชสีมา,3015,30150000,อำเภอพิมาย,Amphoe Phimai,พิมาย,Phimai
+213,30,นครราชสีมา,3016,30160000,อำเภอห้วยแถลง,Amphoe Huai Thalaeng,ห้วยแถลง,Huai Thalaeng
+214,30,นครราชสีมา,3017,30170000,อำเภอชุมพวง,Amphoe Chum Phuang,ชุมพวง,Chum Phuang
+215,30,นครราชสีมา,3018,30180000,อำเภอสูงเนิน,Amphoe Sung Noen,สูงเนิน,Sung Noen
+216,30,นครราชสีมา,3019,30190000,อำเภอขามทะเลสอ,Amphoe Kham Thale So,ขามทะเลสอ,Kham Thale So
+217,30,นครราชสีมา,3020,30200000,อำเภอสีคิ้ว,Amphoe Sikhio,สีคิ้ว,Sikhio
+218,30,นครราชสีมา,3021,30210000,อำเภอปากช่อง,Amphoe Pak Chong,ปากช่อง,Pak Chong
+219,30,นครราชสีมา,3022,30220000,อำเภอหนองบุญมาก,Amphoe Nong Bun Mak,หนองบุญมาก,Nong Bun Mak
+220,30,นครราชสีมา,3023,30230000,อำเภอแก้งสนามนาง,Amphoe Kaeng Sanam Nang,แก้งสนามนาง,Kaeng Sanam Nang
+221,30,นครราชสีมา,3024,30240000,อำเภอโนนแดง,Amphoe Non Daeng,โนนแดง,Non Daeng
+222,30,นครราชสีมา,3025,30250000,อำเภอวังน้ำเขียว,Amphoe Wang Nam Khiao,วังน้ำเขียว,Wang Nam Khiao
+223,30,นครราชสีมา,3026,30260000,อำเภอเทพารักษ์,Amphoe Thepharak,เทพารักษ์,Thepharak
+224,30,นครราชสีมา,3027,30270000,อำเภอเมืองยาง,Amphoe Mueang Yang,เมืองยาง,Mueang Yang
+225,30,นครราชสีมา,3028,30280000,อำเภอพระทองคำ,Amphoe Phra Thong Kham,พระทองคำ,Phra Thong Kham
+226,30,นครราชสีมา,3029,30290000,อำเภอลำทะเมนชัย,Amphoe Lam Thamenchai,ลำทะเมนชัย,Lam Thamenchai
+227,30,นครราชสีมา,3030,30300000,อำเภอบัวลาย,Amphoe Bua Lai,บัวลาย,Bua Lai
+228,30,นครราชสีมา,3031,30310000,อำเภอสีดา,Amphoe Sida,สีดา,Sida
+229,31,บุรีรัมย์,3101,31010000,อำเภอเมืองบุรีรัมย์,Amphoe Mueang Buri Ram,เมืองบุรีรัมย์,Mueang Buri Ram
+230,31,บุรีรัมย์,3102,31020000,อำเภอคูเมือง,Amphoe Khu Mueang,คูเมือง,Khu Mueang
+231,31,บุรีรัมย์,3103,31030000,อำเภอกระสัง,Amphoe Krasang,กระสัง,Krasang
+232,31,บุรีรัมย์,3104,31040000,อำเภอนางรอง,Amphoe Nang Rong,นางรอง,Nang Rong
+233,31,บุรีรัมย์,3105,31050000,อำเภอหนองกี่,Amphoe Nong Ki,หนองกี่,Nong Ki
+234,31,บุรีรัมย์,3106,31060000,อำเภอละหานทราย,Amphoe Lahan Sai,ละหานทราย,Lahan Sai
+235,31,บุรีรัมย์,3107,31070000,อำเภอประโคนชัย,Amphoe Prakhon Chai,ประโคนชัย,Prakhon Chai
+236,31,บุรีรัมย์,3108,31080000,อำเภอบ้านกรวด,Amphoe Ban Kruat,บ้านกรวด,Ban Kruat
+237,31,บุรีรัมย์,3109,31090000,อำเภอพุทไธสง,Amphoe Phutthaisong,พุทไธสง,Phutthaisong
+238,31,บุรีรัมย์,3110,31100000,อำเภอลำปลายมาศ,Amphoe Lam Plai Mat,ลำปลายมาศ,Lam Plai Mat
+239,31,บุรีรัมย์,3111,31110000,อำเภอสตึก,Amphoe Satuek,สตึก,Satuek
+240,31,บุรีรัมย์,3112,31120000,อำเภอปะคำ,Amphoe Pakham,ปะคำ,Pakham
+241,31,บุรีรัมย์,3113,31130000,อำเภอนาโพธิ์,Amphoe Na Pho,นาโพธิ์,Na Pho
+242,31,บุรีรัมย์,3114,31140000,อำเภอหนองหงส์,Amphoe Nong Hong,หนองหงส์,Nong Hong
+243,31,บุรีรัมย์,3115,31150000,อำเภอพลับพลาชัย,Amphoe Phlapphla Chai,พลับพลาชัย,Phlapphla Chai
+244,31,บุรีรัมย์,3116,31160000,อำเภอห้วยราช,Amphoe Huai Rat,ห้วยราช,Huai Rat
+245,31,บุรีรัมย์,3117,31170000,อำเภอโนนสุวรรณ,Amphoe Non Suwan,โนนสุวรรณ,Non Suwan
+246,31,บุรีรัมย์,3118,31180000,อำเภอชำนิ,Amphoe Chamni,ชำนิ,Chamni
+247,31,บุรีรัมย์,3119,31190000,อำเภอบ้านใหม่ไชยพจน์,Amphoe Ban Mai Chaiyaphot,บ้านใหม่ไชยพจน์,Ban Mai Chaiyaphot
+248,31,บุรีรัมย์,3120,31200000,อำเภอโนนดินแดง,Amphoe Non Din Daeng,โนนดินแดง,Non Din Daeng
+249,31,บุรีรัมย์,3121,31210000,อำเภอบ้านด่าน,Amphoe Ban Dan,บ้านด่าน,Ban Dan
+250,31,บุรีรัมย์,3122,31220000,อำเภอแคนดง,Amphoe Khaen Dong,แคนดง,Khaen Dong
+251,32,สุรินทร์,3201,32010000,อำเภอเมืองสุรินทร์,Amphoe Mueang Surin,เมืองสุรินทร์,Mueang Surin
+252,32,สุรินทร์,3202,32020000,อำเภอชุมพลบุรี,Amphoe Chumphon Buri,ชุมพลบุรี,Chumphon Buri
+253,32,สุรินทร์,3203,32030000,อำเภอท่าตูม,Amphoe Tha Tum,ท่าตูม,Tha Tum
+254,32,สุรินทร์,3204,32040000,อำเภอจอมพระ,Amphoe Chom Phra,จอมพระ,Chom Phra
+255,32,สุรินทร์,3205,32050000,อำเภอปราสาท,Amphoe Prasat,ปราสาท,Prasat
+256,32,สุรินทร์,3206,32060000,อำเภอกาบเชิง,Amphoe Kap Choeng,กาบเชิง,Kap Choeng
+257,32,สุรินทร์,3207,32070000,อำเภอรัตนบุรี,Amphoe Rattanaburi,รัตนบุรี,Rattanaburi
+258,32,สุรินทร์,3208,32080000,อำเภอสนม,Amphoe Sanom,สนม,Sanom
+259,32,สุรินทร์,3209,32090000,อำเภอศีขรภูมิ,Amphoe Sikhoraphum,ศีขรภูมิ,Sikhoraphum
+260,32,สุรินทร์,3210,32100000,อำเภอสังขะ,Amphoe Sangkha,สังขะ,Sangkha
+261,32,สุรินทร์,3211,32110000,อำเภอลำดวน,Amphoe Lamduan,ลำดวน,Lamduan
+262,32,สุรินทร์,3212,32120000,อำเภอสำโรงทาบ,Amphoe Samrong Thap,สำโรงทาบ,Samrong Thap
+263,32,สุรินทร์,3213,32130000,อำเภอบัวเชด,Amphoe Buachet,บัวเชด,Buachet
+264,32,สุรินทร์,3214,32140000,อำเภอพนมดงรัก,Amphoe Phanom Dong Rak,พนมดงรัก,Phanom Dong Rak
+265,32,สุรินทร์,3215,32150000,อำเภอศรีณรงค์,Amphoe Si Narong,ศรีณรงค์,Si Narong
+266,32,สุรินทร์,3216,32160000,อำเภอเขวาสินรินทร์,Amphoe Khwao Sinarin,เขวาสินรินทร์,Khwao Sinarin
+267,32,สุรินทร์,3217,32170000,อำเภอโนนนารายณ์,Amphoe Non Narai,โนนนารายณ์,Non Narai
+268,33,ศรีสะเกษ,3301,33010000,อำเภอเมืองศรีสะเกษ,Amphoe Mueang Si Sa Ket,เมืองศรีสะเกษ,Mueang Si Sa Ket
+269,33,ศรีสะเกษ,3302,33020000,อำเภอยางชุมน้อย,Amphoe Yang Chum Noi,ยางชุมน้อย,Yang Chum Noi
+270,33,ศรีสะเกษ,3303,33030000,อำเภอกันทรารมย์,Amphoe Kanthararom,กันทรารมย์,Kanthararom
+271,33,ศรีสะเกษ,3304,33040000,อำเภอกันทรลักษ์,Amphoe Kantharalak,กันทรลักษ์,Kantharalak
+272,33,ศรีสะเกษ,3305,33050000,อำเภอขุขันธ์,Amphoe Khukhan,ขุขันธ์,Khukhan
+273,33,ศรีสะเกษ,3306,33060000,อำเภอไพรบึง,Amphoe Phrai Bueng,ไพรบึง,Phrai Bueng
+274,33,ศรีสะเกษ,3307,33070000,อำเภอปรางค์กู่,Amphoe Prang Ku,ปรางค์กู่,Prang Ku
+275,33,ศรีสะเกษ,3308,33080000,อำเภอขุนหาญ,Amphoe Khun Han,ขุนหาญ,Khun Han
+276,33,ศรีสะเกษ,3309,33090000,อำเภอราษีไศล,Amphoe Rasi Salai,ราษีไศล,Rasi Salai
+277,33,ศรีสะเกษ,3310,33100000,อำเภออุทุมพรพิสัย,Amphoe Uthumphon Phisai,อุทุมพรพิสัย,Uthumphon Phisai
+278,33,ศรีสะเกษ,3311,33110000,อำเภอบึงบูรพ์,Amphoe Bueng Bun,บึงบูรพ์,Bueng Bun
+279,33,ศรีสะเกษ,3312,33120000,อำเภอห้วยทับทัน,Amphoe Huai Thap Than,ห้วยทับทัน,Huai Thap Than
+280,33,ศรีสะเกษ,3313,33130000,อำเภอโนนคูณ,Amphoe Non Khun,โนนคูณ,Non Khun
+281,33,ศรีสะเกษ,3314,33140000,อำเภอศรีรัตนะ,Amphoe Si Rattana,ศรีรัตนะ,Si Rattana
+282,33,ศรีสะเกษ,3315,33150000,อำเภอน้ำเกลี้ยง,Amphoe Nam Kliang,น้ำเกลี้ยง,Nam Kliang
+283,33,ศรีสะเกษ,3316,33160000,อำเภอวังหิน,Amphoe Wang Hin,วังหิน,Wang Hin
+284,33,ศรีสะเกษ,3317,33170000,อำเภอภูสิงห์,Amphoe Phu Sing,ภูสิงห์,Phu Sing
+285,33,ศรีสะเกษ,3318,33180000,อำเภอเมืองจันทร์,Amphoe Mueang Chan,เมืองจันทร์,Mueang Chan
+286,33,ศรีสะเกษ,3319,33190000,อำเภอเบญจลักษ์,Amphoe Benchalak,เบญจลักษ์,Benchalak
+287,33,ศรีสะเกษ,3320,33200000,อำเภอพยุห์,Amphoe Phayu,พยุห์,Phayu
+288,33,ศรีสะเกษ,3321,33210000,อำเภอโพธิ์ศรีสุวรรณ,Amphoe Pho Si Suwan,โพธิ์ศรีสุวรรณ,Pho Si Suwan
+289,33,ศรีสะเกษ,3322,33220000,อำเภอศิลาลาด,Amphoe Sila Lat,ศิลาลาด,Sila Lat
+290,34,อุบลราชธานี,3401,34010000,อำเภอเมืองอุบลราชธานี,Amphoe Mueang Ubon Ratchathani,เมืองอุบลราชธานี,Mueang Ubon Ratchathani
+291,34,อุบลราชธานี,3402,34020000,อำเภอศรีเมืองใหม่,Amphoe Si Mueang Mai,ศรีเมืองใหม่,Si Mueang Mai
+292,34,อุบลราชธานี,3403,34030000,อำเภอโขงเจียม,Amphoe Khong Chiam,โขงเจียม,Khong Chiam
+293,34,อุบลราชธานี,3404,34040000,อำเภอเขื่องใน,Amphoe Khueang Nai,เขื่องใน,Khueang Nai
+294,34,อุบลราชธานี,3405,34050000,อำเภอเขมราฐ,Amphoe Khemarat,เขมราฐ,Khemarat
+295,34,อุบลราชธานี,3407,34070000,อำเภอเดชอุดม,Amphoe Det Udom,เดชอุดม,Det Udom
+296,34,อุบลราชธานี,3408,34080000,อำเภอนาจะหลวย,Amphoe Na Chaluai,นาจะหลวย,Na Chaluai
+297,34,อุบลราชธานี,3409,34090000,อำเภอน้ำยืน,Amphoe Nam Yuen,น้ำยืน,Nam Yuen
+298,34,อุบลราชธานี,3410,34100000,อำเภอบุณฑริก,Amphoe Buntharik,บุณฑริก,Buntharik
+299,34,อุบลราชธานี,3411,34110000,อำเภอตระการพืชผล,Amphoe Trakan Phuet Phon,ตระการพืชผล,Trakan Phuet Phon
+300,34,อุบลราชธานี,3412,34120000,อำเภอกุดข้าวปุ้น,Amphoe Kut Khaopun,กุดข้าวปุ้น,Kut Khaopun
+301,34,อุบลราชธานี,3414,34140000,อำเภอม่วงสามสิบ,Amphoe Muang Sam Sip,ม่วงสามสิบ,Muang Sam Sip
+302,34,อุบลราชธานี,3415,34150000,อำเภอวารินชำราบ,Amphoe Warin Chamrap,วารินชำราบ,Warin Chamrap
+303,34,อุบลราชธานี,3419,34190000,อำเภอพิบูลมังสาหาร,Amphoe Phibun Mangsahan,พิบูลมังสาหาร,Phibun Mangsahan
+304,34,อุบลราชธานี,3420,34200000,อำเภอตาลสุม,Amphoe Tan Sum,ตาลสุม,Tan Sum
+305,34,อุบลราชธานี,3421,34210000,อำเภอโพธิ์ไทร,Amphoe Pho Sai,โพธิ์ไทร,Pho Sai
+306,34,อุบลราชธานี,3422,34220000,อำเภอสำโรง,Amphoe Samrong,สำโรง,Samrong
+307,34,อุบลราชธานี,3424,34240000,อำเภอดอนมดแดง,Amphoe Don Mot Daeng,ดอนมดแดง,Don Mot Daeng
+308,34,อุบลราชธานี,3425,34250000,อำเภอสิรินธร,Amphoe Sirindhorn,สิรินธร,Sirindhorn
+309,34,อุบลราชธานี,3426,34260000,อำเภอทุ่งศรีอุดม,Amphoe Thung Si Udom,ทุ่งศรีอุดม,Thung Si Udom
+310,34,อุบลราชธานี,3429,34290000,อำเภอนาเยีย,Amphoe Na Yia,นาเยีย,Na Yia
+311,34,อุบลราชธานี,3430,34300000,อำเภอนาตาล,Amphoe Na Tan,นาตาล,Na Tan
+312,34,อุบลราชธานี,3431,34310000,อำเภอเหล่าเสือโก้ก,Amphoe Lao Suea Kok,เหล่าเสือโก้ก,Lao Suea Kok
+313,34,อุบลราชธานี,3432,34320000,อำเภอสว่างวีระวงศ์,Amphoe Sawang Wirawong,สว่างวีระวงศ์,Sawang Wirawong
+314,34,อุบลราชธานี,3433,34330000,อำเภอน้ำขุ่น,Amphoe Nam Khun,น้ำขุ่น,Nam Khun
+315,35,ยโสธร,3501,35010000,อำเภอเมืองยโสธร,Amphoe Mueang Yasothon,เมืองยโสธร,Mueang Yasothon
+316,35,ยโสธร,3502,35020000,อำเภอทรายมูล,Amphoe Sai Mun,ทรายมูล,Sai Mun
+317,35,ยโสธร,3503,35030000,อำเภอกุดชุม,Amphoe Kut Chum,กุดชุม,Kut Chum
+318,35,ยโสธร,3504,35040000,อำเภอคำเขื่อนแก้ว,Amphoe Kham Khuean Kaeo,คำเขื่อนแก้ว,Kham Khuean Kaeo
+319,35,ยโสธร,3505,35050000,อำเภอป่าติ้ว,Amphoe Pa Tio,ป่าติ้ว,Pa Tio
+320,35,ยโสธร,3506,35060000,อำเภอมหาชนะชัย,Amphoe Maha Chana Chai,มหาชนะชัย,Maha Chana Chai
+321,35,ยโสธร,3507,35070000,อำเภอค้อวัง,Amphoe Kho Wang,ค้อวัง,Kho Wang
+322,35,ยโสธร,3508,35080000,อำเภอเลิงนกทา,Amphoe Loeng Nok Tha,เลิงนกทา,Loeng Nok Tha
+323,35,ยโสธร,3509,35090000,อำเภอไทยเจริญ,Amphoe Thai Charoen,ไทยเจริญ,Thai Charoen
+324,36,ชัยภูมิ,3601,36010000,อำเภอเมืองชัยภูมิ,Amphoe Mueang Chaiyaphum,เมืองชัยภูมิ,Mueang Chaiyaphum
+325,36,ชัยภูมิ,3602,36020000,อำเภอบ้านเขว้า,Amphoe Ban Khwao,บ้านเขว้า,Ban Khwao
+326,36,ชัยภูมิ,3603,36030000,อำเภอคอนสวรรค์,Amphoe Khon Sawan,คอนสวรรค์,Khon Sawan
+327,36,ชัยภูมิ,3604,36040000,อำเภอเกษตรสมบูรณ์,Amphoe Kaset Sombun,เกษตรสมบูรณ์,Kaset Sombun
+328,36,ชัยภูมิ,3605,36050000,อำเภอหนองบัวแดง,Amphoe Nong Bua Daeng,หนองบัวแดง,Nong Bua Daeng
+329,36,ชัยภูมิ,3606,36060000,อำเภอจัตุรัส,Amphoe Chatturat,จัตุรัส,Chatturat
+330,36,ชัยภูมิ,3607,36070000,อำเภอบำเหน็จณรงค์,Amphoe Bamnet Narong,บำเหน็จณรงค์,Bamnet Narong
+331,36,ชัยภูมิ,3608,36080000,อำเภอหนองบัวระเหว,Amphoe Nong Bua Rawe,หนองบัวระเหว,Nong Bua Rawe
+332,36,ชัยภูมิ,3609,36090000,อำเภอเทพสถิต,Amphoe Thep Sathit,เทพสถิต,Thep Sathit
+333,36,ชัยภูมิ,3610,36100000,อำเภอภูเขียว,Amphoe Phu Khiao,ภูเขียว,Phu Khiao
+334,36,ชัยภูมิ,3611,36110000,อำเภอบ้านแท่น,Amphoe Ban Thaen,บ้านแท่น,Ban Thaen
+335,36,ชัยภูมิ,3612,36120000,อำเภอแก้งคร้อ,Amphoe Kaeng Khro,แก้งคร้อ,Kaeng Khro
+336,36,ชัยภูมิ,3613,36130000,อำเภอคอนสาร,Amphoe Khon San,คอนสาร,Khon San
+337,36,ชัยภูมิ,3614,36140000,อำเภอภักดีชุมพล,Amphoe Phakdi Chumphon,ภักดีชุมพล,Phakdi Chumphon
+338,36,ชัยภูมิ,3615,36150000,อำเภอเนินสง่า,Amphoe Noen Sa-nga,เนินสง่า,Noen Sa-nga
+339,36,ชัยภูมิ,3616,36160000,อำเภอซับใหญ่,Amphoe Sap Yai,ซับใหญ่,Sap Yai
+340,37,อำนาจเจริญ,3701,37010000,อำเภอเมืองอำนาจเจริญ,Amphoe Mueang Amnat Charoen,เมืองอำนาจเจริญ,Mueang Amnat Charoen
+341,37,อำนาจเจริญ,3702,37020000,อำเภอชานุมาน ,Amphoe Chanuman,ชานุมาน,Chanuman
+342,37,อำนาจเจริญ,3703,37030000,อำเภอปทุมราชวงศา,Amphoe Pathum Ratchawongsa,ปทุมราชวงศา,Pathum Ratchawongsa
+343,37,อำนาจเจริญ,3704,37040000,อำเภอพนา,Amphoe Phana,พนา,Phana
+344,37,อำนาจเจริญ,3705,37050000,อำเภอเสนางคนิคม ,Amphoe Senangkhanikhom,เสนางคนิคม,Senangkhanikhom
+345,37,อำนาจเจริญ,3706,37060000,อำเภอหัวตะพาน,Amphoe Hua Taphan,หัวตะพาน,Hua Taphan
+346,37,อำนาจเจริญ,3707,37070000,อำเภอลืออำนาจ,Amphoe Lue Amnat,ลืออำนาจ,Lue Amnat
+347,38,บึงกาฬ,3801,38010000,อำเภอเมืองบึงกาฬ,Amphoe Mueang Bueng Kan,เมืองบึงกาฬ,Mueang Bueng Kan
+348,38,บึงกาฬ,3802,38020000,อำเภอพรเจริญ,Amphoe Phon Charoen,พรเจริญ,Phon Charoen
+349,38,บึงกาฬ,3803,38030000,อำเภอโซ่พิสัย,Amphoe So Phisai,โซ่พิสัย,So Phisai
+350,38,บึงกาฬ,3804,38040000,อำเภอเซกา,Amphoe Seka,เซกา,Seka
+351,38,บึงกาฬ,3805,38050000,อำเภอปากคาด,Amphoe Pak Khat,ปากคาด,Pak Khat
+352,38,บึงกาฬ,3806,38060000,อำเภอบึงโขงหลง,Amphoe Bueng Khong Long,บึงโขงหลง,Bueng Khong Long
+353,38,บึงกาฬ,3807,38070000,อำเภอศรีวิไล,Amphoe Si Wilai,ศรีวิไล,Si Wilai
+354,38,บึงกาฬ,3808,38080000,อำเภอบุ่งคล้า,Amphoe Bung Khla,บุ่งคล้า,Bung Khla
+355,39,หนองบัวลำภู,3901,39010000,อำเภอเมืองหนองบัวลำภู  ,Amphoe Mueang Nong Bua Lam Phu,เมืองหนองบัวลำภู,Mueang Nong Bua Lam Phu
+356,39,หนองบัวลำภู,3902,39020000,อำเภอนากลาง,Amphoe Na Klang,นากลาง,Na Klang
+357,39,หนองบัวลำภู,3903,39030000,อำเภอโนนสัง,Amphoe Non Sang,โนนสัง,Non Sang
+358,39,หนองบัวลำภู,3904,39040000,อำเภอศรีบุญเรือง,Amphoe Si Bun Rueang,ศรีบุญเรือง,Si Bun Rueang
+359,39,หนองบัวลำภู,3905,39050000,อำเภอสุวรรณคูหา,Amphoe Suwannakhuha,สุวรรณคูหา,Suwannakhuha
+360,39,หนองบัวลำภู,3906,39060000,อำเภอนาวัง,Amphoe Na Wang,นาวัง,Na Wang
+361,40,ขอนแก่น,4001,40010000,อำเภอเมืองขอนแก่น,Amphoe Mueang Khon Kaen,เมืองขอนแก่น,Mueang Khon Kaen
+362,40,ขอนแก่น,4002,40020000,อำเภอบ้านฝาง,Amphoe Ban Fang,บ้านฝาง,Ban Fang
+363,40,ขอนแก่น,4003,40030000,อำเภอพระยืน,Amphoe Phra Yuen,พระยืน,Phra Yuen
+364,40,ขอนแก่น,4004,40040000,อำเภอหนองเรือ,Amphoe Nong Ruea,หนองเรือ,Nong Ruea
+365,40,ขอนแก่น,4005,40050000,อำเภอชุมแพ,Amphoe Chum Phae,ชุมแพ,Chum Phae
+366,40,ขอนแก่น,4006,40060000,อำเภอสีชมพู,Amphoe Si Chomphu,สีชมพู,Si Chomphu
+367,40,ขอนแก่น,4007,40070000,อำเภอน้ำพอง,Amphoe Nam Phong,น้ำพอง,Nam Phong
+368,40,ขอนแก่น,4008,40080000,อำเภออุบลรัตน์,Amphoe Ubolratana,อุบลรัตน์,Ubolratana
+369,40,ขอนแก่น,4009,40090000,อำเภอกระนวน,Amphoe Kranuan,กระนวน,Kranuan
+370,40,ขอนแก่น,4010,40100000,อำเภอบ้านไผ่,Amphoe Ban Phai,บ้านไผ่,Ban Phai
+371,40,ขอนแก่น,4011,40110000,อำเภอเปือยน้อย,Amphoe Pueai Noi,เปือยน้อย,Pueai Noi
+372,40,ขอนแก่น,4012,40120000,อำเภอพล,Amphoe Phon,พล,Phon
+373,40,ขอนแก่น,4013,40130000,อำเภอแวงใหญ่,Amphoe Waeng Yai,แวงใหญ่,Waeng Yai
+374,40,ขอนแก่น,4014,40140000,อำเภอแวงน้อย,Amphoe Waeng Noi,แวงน้อย,Waeng Noi
+375,40,ขอนแก่น,4015,40150000,อำเภอหนองสองห้อง,Amphoe Nong Song Hong,หนองสองห้อง,Nong Song Hong
+376,40,ขอนแก่น,4016,40160000,อำเภอภูเวียง,Amphoe Phu Wiang,ภูเวียง,Phu Wiang
+377,40,ขอนแก่น,4017,40170000,อำเภอมัญจาคีรี,Amphoe Mancha Khiri,มัญจาคีรี,Mancha Khiri
+378,40,ขอนแก่น,4018,40180000,อำเภอชนบท,Amphoe Chonnabot,ชนบท,Chonnabot
+379,40,ขอนแก่น,4019,40190000,อำเภอเขาสวนกวาง,Amphoe Khao Suan Kwang,เขาสวนกวาง,Khao Suan Kwang
+380,40,ขอนแก่น,4020,40200000,อำเภอภูผาม่าน,Amphoe Phu Pha Man,ภูผาม่าน,Phu Pha Man
+381,40,ขอนแก่น,4021,40210000,อำเภอซำสูง,Amphoe Sam Sung,ซำสูง,Sam Sung
+382,40,ขอนแก่น,4022,40220000,อำเภอโคกโพธิ์ไชย,Amphoe Khok Pho Chai,โคกโพธิ์ไชย,Khok Pho Chai
+383,40,ขอนแก่น,4023,40230000,อำเภอหนองนาคำ,Amphoe Nong Na Kham,หนองนาคำ,Nong Na Kham
+384,40,ขอนแก่น,4024,40240000,อำเภอบ้านแฮด,Amphoe Ban Haet,บ้านแฮด,Ban Haet
+385,40,ขอนแก่น,4025,40250000,อำเภอโนนศิลา,Amphoe Non Sila,โนนศิลา,Non Sila
+386,40,ขอนแก่น,4029,40290000,อำเภอเวียงเก่า,Amphoe Wiang Kao,เวียงเก่า,Wiang Kao
+387,41,อุดรธานี,4101,41010000,อำเภอเมืองอุดรธานี,Amphoe Mueang Udon Thani,เมืองอุดรธานี,Mueang Udon Thani
+388,41,อุดรธานี,4102,41020000,อำเภอกุดจับ,Amphoe Kut Chap,กุดจับ,Kut Chap
+389,41,อุดรธานี,4103,41030000,อำเภอหนองวัวซอ,Amphoe Nong Wua So,หนองวัวซอ,Nong Wua So
+390,41,อุดรธานี,4104,41040000,อำเภอกุมภวาปี,Amphoe Kumphawapi,กุมภวาปี,Kumphawapi
+391,41,อุดรธานี,4105,41050000,อำเภอโนนสะอาด,Amphoe Non Sa-at,โนนสะอาด,Non Sa-at
+392,41,อุดรธานี,4106,41060000,อำเภอหนองหาน,Amphoe Nong Han,หนองหาน,Nong Han
+393,41,อุดรธานี,4107,41070000,อำเภอทุ่งฝน,Amphoe Thung Fon,ทุ่งฝน,Thung Fon
+394,41,อุดรธานี,4108,41080000,อำเภอไชยวาน,Amphoe Chai Wan,ไชยวาน,Chai Wan
+395,41,อุดรธานี,4109,41090000,อำเภอศรีธาตุ,Amphoe Si That,ศรีธาตุ,Si That
+396,41,อุดรธานี,4110,41100000,อำเภอวังสามหมอ,Amphoe Wang Sam Mo,วังสามหมอ,Wang Sam Mo
+397,41,อุดรธานี,4111,41110000,อำเภอบ้านดุง,Amphoe Ban Dung,บ้านดุง,Ban Dung
+398,41,อุดรธานี,4117,41170000,อำเภอบ้านผือ,Amphoe Ban Phue,บ้านผือ,Ban Phue
+399,41,อุดรธานี,4118,41180000,อำเภอน้ำโสม,Amphoe Nam Som,น้ำโสม,Nam Som
+400,41,อุดรธานี,4119,41190000,อำเภอเพ็ญ,Amphoe Phen,เพ็ญ,Phen
+401,41,อุดรธานี,4120,41200000,อำเภอสร้างคอม,Amphoe Sang Khom,สร้างคอม,Sang Khom
+402,41,อุดรธานี,4121,41210000,อำเภอหนองแสง,Amphoe Nong Saeng,หนองแสง,Nong Saeng
+403,41,อุดรธานี,4122,41220000,อำเภอนายูง,Amphoe Na Yung,นายูง,Na Yung
+404,41,อุดรธานี,4123,41230000,อำเภอพิบูลย์รักษ์,Amphoe Phibun Rak,พิบูลย์รักษ์,Phibun Rak
+405,41,อุดรธานี,4124,41240000,อำเภอกู่แก้ว,Amphoe Ku Kaeo,กู่แก้ว,Ku Kaeo
+406,41,อุดรธานี,4125,41250000,อำเภอประจักษ์ศิลปาคม,Amphoe Prachaksinlapakhom,ประจักษ์ศิลปาคม,Prachaksinlapakhom
+407,42,เลย,4201,42010000,อำเภอเมืองเลย,Amphoe Mueang Loei,เมืองเลย,Mueang Loei
+408,42,เลย,4202,42020000,อำเภอนาด้วง,Amphoe Na Duang,นาด้วง,Na Duang
+409,42,เลย,4203,42030000,อำเภอเชียงคาน,Amphoe Chiang Khan,เชียงคาน,Chiang Khan
+410,42,เลย,4204,42040000,อำเภอปากชม,Amphoe Pak Chom,ปากชม,Pak Chom
+411,42,เลย,4205,42050000,อำเภอด่านซ้าย,Amphoe Dan Sai,ด่านซ้าย,Dan Sai
+412,42,เลย,4206,42060000,อำเภอนาแห้ว,Amphoe Na Haeo,นาแห้ว,Na Haeo
+413,42,เลย,4207,42070000,อำเภอภูเรือ,Amphoe Phu Ruea,ภูเรือ,Phu Ruea
+414,42,เลย,4208,42080000,อำเภอท่าลี่,Amphoe Tha Li,ท่าลี่,Tha Li
+415,42,เลย,4209,42090000,อำเภอวังสะพุง,Amphoe Wang Saphung,วังสะพุง,Wang Saphung
+416,42,เลย,4210,42100000,อำเภอภูกระดึง,Amphoe Phu Kradueng,ภูกระดึง,Phu Kradueng
+417,42,เลย,4211,42110000,อำเภอภูหลวง,Amphoe Phu Luang,ภูหลวง,Phu Luang
+418,42,เลย,4212,42120000,อำเภอผาขาว,Amphoe Pha Khao,ผาขาว,Pha Khao
+419,42,เลย,4213,42130000,อำเภอเอราวัณ,Amphoe Erawan,เอราวัณ,Erawan
+420,42,เลย,4214,42140000,อำเภอหนองหิน,Amphoe Nong Hin,หนองหิน,Nong Hin
+421,43,หนองคาย,4301,43010000,อำเภอเมืองหนองคาย,Amphoe Mueang Nong Khai,เมืองหนองคาย,Mueang Nong Khai
+422,43,หนองคาย,4302,43020000,อำเภอท่าบ่อ,Amphoe Tha Bo,ท่าบ่อ,Tha Bo
+423,43,หนองคาย,4305,43050000,อำเภอโพนพิสัย,Amphoe So Phisai,โพนพิสัย,So Phisai
+424,43,หนองคาย,4307,43070000,อำเภอศรีเชียงใหม่,Amphoe Si Chiang Mai,ศรีเชียงใหม่,Si Chiang Mai
+425,43,หนองคาย,4308,43080000,อำเภอสังคม,Amphoe Sangkhom,สังคม,Sangkhom
+426,43,หนองคาย,4314,43140000,อำเภอสระใคร,Amphoe Sakhrai,สระใคร,Sakhrai
+427,43,หนองคาย,4315,43150000,อำเภอเฝ้าไร่,Amphoe Fao Rai,เฝ้าไร่,Fao Rai
+428,43,หนองคาย,4316,43160000,อำเภอรัตนวาปี,Amphoe Rattanawapi,รัตนวาปี,Rattanawapi
+429,43,หนองคาย,4317,43170000,อำเภอโพธิ์ตาก,Amphoe Pho Tak,โพธิ์ตาก,Pho Tak
+430,44,มหาสารคาม,4401,44010000,อำเภอเมืองมหาสารคาม,Amphoe Mueang Maha Sarakham,เมืองมหาสารคาม,Mueang Maha Sarakham
+431,44,มหาสารคาม,4402,44020000,อำเภอแกดำ,Amphoe Kae Dam,แกดำ,Kae Dam
+432,44,มหาสารคาม,4403,44030000,อำเภอโกสุมพิสัย,Amphoe Kosum Phisai,โกสุมพิสัย,Kosum Phisai
+433,44,มหาสารคาม,4404,44040000,อำเภอกันทรวิชัย,Amphoe Kantharawichai,กันทรวิชัย,Kantharawichai
+434,44,มหาสารคาม,4405,44050000,อำเภอเชียงยืน,Amphoe Chiang Yuen,เชียงยืน,Chiang Yuen
+435,44,มหาสารคาม,4406,44060000,อำเภอบรบือ,Amphoe Borabue,บรบือ,Borabue
+436,44,มหาสารคาม,4407,44070000,อำเภอนาเชือก,Amphoe Na Chueak,นาเชือก,Na Chueak
+437,44,มหาสารคาม,4408,44080000,อำเภอพยัคฆภูมิพิสัย,Amphoe Phayakkhaphum Phisai,พยัคฆภูมิพิสัย,Phayakkhaphum Phisai
+438,44,มหาสารคาม,4409,44090000,อำเภอวาปีปทุม,Amphoe Wapi Pathum,วาปีปทุม,Wapi Pathum
+439,44,มหาสารคาม,4410,44100000,อำเภอนาดูน,Amphoe Na Dun,นาดูน,Na Dun
+440,44,มหาสารคาม,4411,44110000,อำเภอยางสีสุราช,Amphoe Yang Sisurat,ยางสีสุราช,Yang Sisurat
+441,44,มหาสารคาม,4412,44120000,อำเภอกุดรัง,Amphoe Kut Rang,กุดรัง,Kut Rang
+442,44,มหาสารคาม,4413,44130000,อำเภอชื่นชม,Amphoe Chuen Chom,ชื่นชม,Chuen Chom
+443,45,ร้อยเอ็ด,4501,45010000,อำเภอเมืองร้อยเอ็ด,Amphoe Mueang Roi Et,เมืองร้อยเอ็ด,Mueang Roi Et
+444,45,ร้อยเอ็ด,4502,45020000,อำเภอเกษตรวิสัย,Amphoe Kaset Wisai,เกษตรวิสัย,Kaset Wisai
+445,45,ร้อยเอ็ด,4503,45030000,อำเภอปทุมรัตต์,Amphoe Pathum Rat,ปทุมรัตต์,Pathum Rat
+446,45,ร้อยเอ็ด,4504,45040000,อำเภอจตุรพักตรพิมาน,Amphoe Chaturaphak Phiman,จตุรพักตรพิมาน,Chaturaphak Phiman
+447,45,ร้อยเอ็ด,4505,45050000,อำเภอธวัชบุรี,Amphoe Thawat Buri,ธวัชบุรี,Thawat Buri
+448,45,ร้อยเอ็ด,4506,45060000,อำเภอพนมไพร  ,Amphoe Phanom Phrai,พนมไพร,Phanom Phrai
+449,45,ร้อยเอ็ด,4507,45070000,อำเภอโพนทอง,Amphoe Phon Thong,โพนทอง,Phon Thong
+450,45,ร้อยเอ็ด,4508,45080000,อำเภอโพธิ์ชัย,Amphoe Pho Chai,โพธิ์ชัย,Pho Chai
+451,45,ร้อยเอ็ด,4509,45090000,อำเภอหนองพอก,Amphoe Nong Phok,หนองพอก,Nong Phok
+452,45,ร้อยเอ็ด,4510,45100000,อำเภอเสลภูมิ,Amphoe Selaphum,เสลภูมิ,Selaphum
+453,45,ร้อยเอ็ด,4511,45110000,อำเภอสุวรรณภูมิ,Amphoe Suwannaphum,สุวรรณภูมิ,Suwannaphum
+454,45,ร้อยเอ็ด,4512,45120000,อำเภอเมืองสรวง,Amphoe Mueang Suang,เมืองสรวง,Mueang Suang
+455,45,ร้อยเอ็ด,4513,45130000,อำเภอโพนทราย,Amphoe Phon Sai,โพนทราย,Phon Sai
+456,45,ร้อยเอ็ด,4514,45140000,อำเภออาจสามารถ,Amphoe At Samat,อาจสามารถ,At Samat
+457,45,ร้อยเอ็ด,4515,45150000,อำเภอเมยวดี,Amphoe Moei Wadi,เมยวดี,Moei Wadi
+458,45,ร้อยเอ็ด,4516,45160000,อำเภอศรีสมเด็จ,Amphoe Si Somdet,ศรีสมเด็จ,Si Somdet
+459,45,ร้อยเอ็ด,4517,45170000,อำเภอจังหาร,Amphoe Changhan,จังหาร,Changhan
+460,45,ร้อยเอ็ด,4518,45180000,อำเภอเชียงขวัญ,Amphoe Chiang Khwan,เชียงขวัญ,Chiang Khwan
+461,45,ร้อยเอ็ด,4519,45190000,อำเภอหนองฮี,Amphoe Nong Hi,หนองฮี,Nong Hi
+462,45,ร้อยเอ็ด,4520,45200000,อำเภอทุ่งเขาหลวง,Amphoe Thung Khao Luang,ทุ่งเขาหลวง,Thung Khao Luang
+463,46,กาฬสินธุ์,4601,46010000,อำเภอเมืองกาฬสินธุ์,Amphoe Mueang Kalasin,เมืองกาฬสินธุ์,Mueang Kalasin
+464,46,กาฬสินธุ์,4602,46020000,อำเภอนามน,Amphoe Na Mon,นามน,Na Mon
+465,46,กาฬสินธุ์,4603,46030000,อำเภอกมลาไสย,Amphoe Kamalasai,กมลาไสย,Kamalasai
+466,46,กาฬสินธุ์,4604,46040000,อำเภอร่องคำ,Amphoe Rong Kham,ร่องคำ,Rong Kham
+467,46,กาฬสินธุ์,4605,46050000,อำเภอกุฉินารายณ์,Amphoe Kuchinarai,กุฉินารายณ์,Kuchinarai
+468,46,กาฬสินธุ์,4606,46060000,อำเภอเขาวง,Amphoe Khao Wong,เขาวง,Khao Wong
+469,46,กาฬสินธุ์,4607,46070000,อำเภอยางตลาด,Amphoe Yang Talat,ยางตลาด,Yang Talat
+470,46,กาฬสินธุ์,4608,46080000,อำเภอห้วยเม็ก,Amphoe Huai Mek,ห้วยเม็ก,Huai Mek
+471,46,กาฬสินธุ์,4609,46090000,อำเภอสหัสขันธ์,Amphoe Sahatsakhan,สหัสขันธ์,Sahatsakhan
+472,46,กาฬสินธุ์,4610,46100000,อำเภอคำม่วง,Amphoe Kham Muang,คำม่วง,Kham Muang
+473,46,กาฬสินธุ์,4611,46110000,อำเภอท่าคันโท,Amphoe Tha Khantho,ท่าคันโท,Tha Khantho
+474,46,กาฬสินธุ์,4612,46120000,อำเภอหนองกุงศรี,Amphoe Nong Kung Si,หนองกุงศรี,Nong Kung Si
+475,46,กาฬสินธุ์,4613,46130000,อำเภอสมเด็จ,Amphoe Somdet,สมเด็จ,Somdet
+476,46,กาฬสินธุ์,4614,46140000,อำเภอห้วยผึ้ง,Amphoe Huai Phueng,ห้วยผึ้ง,Huai Phueng
+477,46,กาฬสินธุ์,4615,46150000,อำเภอสามชัย,Amphoe Sam Chai,สามชัย,Sam Chai
+478,46,กาฬสินธุ์,4616,46160000,อำเภอนาคู,Amphoe Na Khu,นาคู,Na Khu
+479,46,กาฬสินธุ์,4617,46170000,อำเภอดอนจาน,Amphoe Don Chan,ดอนจาน,Don Chan
+480,46,กาฬสินธุ์,4618,46180000,อำเภอฆ้องชัย,Amphoe Khong Chai,ฆ้องชัย,Khong Chai
+481,47,สกลนคร,4701,47010000,อำเภอเมืองสกลนคร,Amphoe Mueang Sakon Nakhon,เมืองสกลนคร,Mueang Sakon Nakhon
+482,47,สกลนคร,4702,47020000,อำเภอกุสุมาลย์,Amphoe Kusuman,กุสุมาลย์,Kusuman
+483,47,สกลนคร,4703,47030000,อำเภอกุดบาก,Amphoe Kut Bak,กุดบาก,Kut Bak
+484,47,สกลนคร,4704,47040000,อำเภอพรรณานิคม,Amphoe Phanna Nikhom,พรรณานิคม,Phanna Nikhom
+485,47,สกลนคร,4705,47050000,อำเภอพังโคน,Amphoe Phang Khon,พังโคน,Phang Khon
+486,47,สกลนคร,4706,47060000,อำเภอวาริชภูมิ,Amphoe Waritchaphum,วาริชภูมิ,Waritchaphum
+487,47,สกลนคร,4707,47070000,อำเภอนิคมน้ำอูน,Amphoe Nikhom Nam Un,นิคมน้ำอูน,Nikhom Nam Un
+488,47,สกลนคร,4708,47080000,อำเภอวานรนิวาส,Amphoe Wanon Niwat,วานรนิวาส,Wanon Niwat
+489,47,สกลนคร,4709,47090000,อำเภอคำตากล้า,Amphoe Kham Ta Kla,คำตากล้า,Kham Ta Kla
+490,47,สกลนคร,4710,47100000,อำเภอบ้านม่วง,Amphoe Ban Muang,บ้านม่วง,Ban Muang
+491,47,สกลนคร,4710,47100000,อำเภอม่วง,Amphoe Muang,ม่วง,Muang
+492,47,สกลนคร,4711,47110000,อำเภออากาศอำนวย,Amphoe Akat Amnuai,อากาศอำนวย,Akat Amnuai
+493,47,สกลนคร,4712,47120000,อำเภอสว่างแดนดิน,Amphoe Sawang Daen Din,สว่างแดนดิน,Sawang Daen Din
+494,47,สกลนคร,4713,47130000,อำเภอส่องดาว,Amphoe Song Dao,ส่องดาว,Song Dao
+495,47,สกลนคร,4714,47140000,อำเภอเต่างอย,Amphoe Tao Ngoi,เต่างอย,Tao Ngoi
+496,47,สกลนคร,4715,47150000,อำเภอโคกศรีสุพรรณ,Amphoe Khok Si Suphan,โคกศรีสุพรรณ,Khok Si Suphan
+497,47,สกลนคร,4716,47160000,อำเภอเจริญศิลป์,Amphoe Charoen Sin,เจริญศิลป์,Charoen Sin
+498,47,สกลนคร,4717,47170000,อำเภอโพนนาแก้ว,Amphoe Phon Na Kaeo,โพนนาแก้ว,Phon Na Kaeo
+499,47,สกลนคร,4718,47180000,อำเภอภูพาน,Amphoe Phu Phan,ภูพาน,Phu Phan
+500,48,นครพนม,4801,48010000,อำเภอเมืองนครพนม,Amphoe Mueang Nakhon Phanom,เมืองนครพนม,Mueang Nakhon Phanom
+501,48,นครพนม,4802,48020000,อำเภอปลาปาก,Amphoe Pla Pak,ปลาปาก,Pla Pak
+502,48,นครพนม,4803,48030000,อำเภอท่าอุเทน,Amphoe Tha Uthen,ท่าอุเทน,Tha Uthen
+503,48,นครพนม,4804,48040000,อำเภอบ้านแพง,Amphoe Ban Phaeng,บ้านแพง,Ban Phaeng
+504,48,นครพนม,4805,48050000,อำเภอธาตุพนม,Amphoe That Phanom,ธาตุพนม,That Phanom
+505,48,นครพนม,4806,48060000,อำเภอเรณูนคร,Amphoe Renu Nakhon,เรณูนคร,Renu Nakhon
+506,48,นครพนม,4807,48070000,อำเภอนาแก,Amphoe Na Kae,นาแก,Na Kae
+507,48,นครพนม,4808,48080000,อำเภอศรีสงคราม,Amphoe Si Songkhram,ศรีสงคราม,Si Songkhram
+508,48,นครพนม,4809,48090000,อำเภอนาหว้า,Amphoe Na Wa,นาหว้า,Na Wa
+509,48,นครพนม,4810,48100000,อำเภอโพนสวรรค์,Amphoe Phon Sawan,โพนสวรรค์,Phon Sawan
+510,48,นครพนม,4811,48110000,อำเภอนาทม,Amphoe Na Thom,นาทม,Na Thom
+511,48,นครพนม,4812,48120000,อำเภอวังยาง,Amphoe Wang Yang,วังยาง,Wang Yang
+512,49,มุกดาหาร,4901,49010000,อำเภอเมืองมุกดาหาร,Amphoe Mueang Mukdahan,เมืองมุกดาหาร,Mueang Mukdahan
+513,49,มุกดาหาร,4902,49020000,อำเภอนิคมคำสร้อย,Amphoe Nikhom Kham Soi,นิคมคำสร้อย,Nikhom Kham Soi
+514,49,มุกดาหาร,4903,49030000,อำเภอดอนตาล,Amphoe Don Tan,ดอนตาล,Don Tan
+515,49,มุกดาหาร,4904,49040000,อำเภอดงหลวง,Amphoe Dong Luang,ดงหลวง,Dong Luang
+516,49,มุกดาหาร,4905,49050000,อำเภอคำชะอี,Amphoe Khamcha-i,คำชะอี,Khamcha-i
+517,49,มุกดาหาร,4906,49060000,อำเภอหว้านใหญ่,Amphoe Wan Yai,หว้านใหญ่,Wan Yai
+518,49,มุกดาหาร,4907,49070000,อำเภอหนองสูง,Amphoe Nong Sung,หนองสูง,Nong Sung
+519,50,เชียงใหม่,5001,50010000,อำเภอเมืองเชียงใหม่,Amphoe Mueang Chiang Mai,เมืองเชียงใหม่,Mueang Chiang Mai
+520,50,เชียงใหม่,5002,50020000,อำเภอจอมทอง,Amphoe Chom Thong,จอมทอง,Chom Thong
+521,50,เชียงใหม่,5003,50030000,อำเภอแม่แจ่ม,Amphoe Mae Chaem,แม่แจ่ม,Mae Chaem
+522,50,เชียงใหม่,5004,50040000,อำเภอเชียงดาว,Amphoe Chiang Dao,เชียงดาว,Chiang Dao
+523,50,เชียงใหม่,5005,50050000,อำเภอดอยสะเก็ด,Amphoe Doi Saket,ดอยสะเก็ด,Doi Saket
+524,50,เชียงใหม่,5006,50060000,อำเภอแม่แตง,Amphoe Mae Taeng,แม่แตง,Mae Taeng
+525,50,เชียงใหม่,5007,50070000,อำเภอแม่ริม,Amphoe Mae Rim,แม่ริม,Mae Rim
+526,50,เชียงใหม่,5008,50080000,อำเภอสะเมิง,Amphoe Samoeng,สะเมิง,Samoeng
+527,50,เชียงใหม่,5009,50090000,อำเภอฝาง,Amphoe Fang,ฝาง,Fang
+528,50,เชียงใหม่,5010,50100000,อำเภอแม่อาย,Amphoe Mae Ai,แม่อาย,Mae Ai
+529,50,เชียงใหม่,5011,50110000,อำเภอพร้าว,Amphoe Phrao,พร้าว,Phrao
+530,50,เชียงใหม่,5012,50120000,อำเภอสันป่าตอง,Amphoe San Pa Tong,สันป่าตอง,San Pa Tong
+531,50,เชียงใหม่,5013,50130000,อำเภอสันกำแพง,Amphoe San Kamphaeng,สันกำแพง,San Kamphaeng
+532,50,เชียงใหม่,5014,50140000,อำเภอสันทราย,Amphoe San Sai,สันทราย,San Sai
+533,50,เชียงใหม่,5015,50150000,อำเภอหางดง,Amphoe Hang Dong,หางดง,Hang Dong
+534,50,เชียงใหม่,5016,50160000,อำเภอฮอด,Amphoe Hot,ฮอด,Hot
+535,50,เชียงใหม่,5017,50170000,อำเภอดอยเต่า,Amphoe Doi Tao,ดอยเต่า,Doi Tao
+536,50,เชียงใหม่,5018,50180000,อำเภออมก๋อย,Amphoe Omkoi,อมก๋อย,Omkoi
+537,50,เชียงใหม่,5019,50190000,อำเภอสารภี,Amphoe Saraphi,สารภี,Saraphi
+538,50,เชียงใหม่,5020,50200000,อำเภอเวียงแหง,Amphoe Wiang Haeng,เวียงแหง,Wiang Haeng
+539,50,เชียงใหม่,5021,50210000,อำเภอไชยปราการ,Amphoe Chai Prakan,ไชยปราการ,Chai Prakan
+540,50,เชียงใหม่,5022,50220000,อำเภอแม่วาง,Amphoe Mae Wang,แม่วาง,Mae Wang
+541,50,เชียงใหม่,5023,50230000,อำเภอแม่ออน,Amphoe Mae On,แม่ออน,Mae On
+542,50,เชียงใหม่,5024,50240000,อำเภอดอยหล่อ,Amphoe Doi Lo,ดอยหล่อ,Doi Lo
+543,50,เชียงใหม่,5025,50250000,อำเภอกัลยาณิวัฒนา,Amphoe Galayani Vadhana,กัลยาณิวัฒนา,Galayani Vadhana
+544,51,ลำพูน,5101,51010000,อำเภอเมืองลำพูน,Amphoe Mueang Lamphun,เมืองลำพูน,Mueang Lamphun
+545,51,ลำพูน,5102,51020000,อำเภอแม่ทา,Amphoe Mae Tha,แม่ทา,Mae Tha
+546,51,ลำพูน,5103,51030000,อำเภอบ้านโฮ่ง,Amphoe Ban Hong,บ้านโฮ่ง,Ban Hong
+547,51,ลำพูน,5104,51040000,อำเภอลี้,Amphoe Li,ลี้,Li
+548,51,ลำพูน,5105,51050000,อำเภอทุ่งหัวช้าง,Amphoe Thung Hua Chang,ทุ่งหัวช้าง,Thung Hua Chang
+549,51,ลำพูน,5106,51060000,อำเภอป่าซาง,Amphoe Pa Sang,ป่าซาง,Pa Sang
+550,51,ลำพูน,5107,51070000,อำเภอบ้านธิ,Amphoe Ban Thi,บ้านธิ,Ban Thi
+551,51,ลำพูน,5108,51080000,อำเภอเวียงหนองล่อง,Amphoe Wiang Nong Long,เวียงหนองล่อง,Wiang Nong Long
+552,52,ลำปาง,5201,52010000,อำเภอเมืองลำปาง,Amphoe Mueang Lampang,เมืองลำปาง,Mueang Lampang
+553,52,ลำปาง,5202,52020000,อำเภอแม่เมาะ,Amphoe Mae Mo,แม่เมาะ,Mae Mo
+554,52,ลำปาง,5203,52030000,อำเภอเกาะคา,Amphoe Ko Kha,เกาะคา,Ko Kha
+555,52,ลำปาง,5204,52040000,อำเภอเสริมงาม,Amphoe Soem Ngam,เสริมงาม,Soem Ngam
+556,52,ลำปาง,5205,52050000,อำเภองาว,Amphoe Ngao,งาว,Ngao
+557,52,ลำปาง,5206,52060000,อำเภอแจ้ห่ม,Amphoe Chae Hom,แจ้ห่ม,Chae Hom
+558,52,ลำปาง,5207,52070000,อำเภอวังเหนือ,Amphoe Wang Nuea,วังเหนือ,Wang Nuea
+559,52,ลำปาง,5208,52080000,อำเภอเถิน,Amphoe Thoen,เถิน,Thoen
+560,52,ลำปาง,5209,52090000,อำเภอแม่พริก,Amphoe Mae Phrik,แม่พริก,Mae Phrik
+561,52,ลำปาง,5210,52100000,อำเภอแม่ทะ,Amphoe Mae Tha,แม่ทะ,Mae Tha
+562,52,ลำปาง,5211,52110000,อำเภอสบปราบ,Amphoe Sop Prap,สบปราบ,Sop Prap
+563,52,ลำปาง,5212,52120000,อำเภอห้างฉัตร,Amphoe Hang Chat,ห้างฉัตร,Hang Chat
+564,52,ลำปาง,5213,52130000,อำเภอเมืองปาน,Amphoe Mueang Pan,เมืองปาน,Mueang Pan
+565,53,อุตรดิตถ์,5301,53010000,อำเภอเมืองอุตรดิตถ์,Amphoe Mueang Uttaradit,เมืองอุตรดิตถ์,Mueang Uttaradit
+566,53,อุตรดิตถ์,5302,53020000,อำเภอตรอน,Amphoe Tron,ตรอน,Tron
+567,53,อุตรดิตถ์,5303,53030000,อำเภอท่าปลา,Amphoe Tha Pla,ท่าปลา,Tha Pla
+568,53,อุตรดิตถ์,5304,53040000,อำเภอน้ำปาด,Amphoe Nam Pat,น้ำปาด,Nam Pat
+569,53,อุตรดิตถ์,5305,53050000,อำเภอฟากท่า,Amphoe Fak Tha,ฟากท่า,Fak Tha
+570,53,อุตรดิตถ์,5306,53060000,อำเภอบ้านโคก,Amphoe Ban Khok,บ้านโคก,Ban Khok
+571,53,อุตรดิตถ์,5307,53070000,อำเภอพิชัย,Amphoe Phichai,พิชัย,Phichai
+572,53,อุตรดิตถ์,5308,53080000,อำเภอลับแล,Amphoe Laplae,ลับแล,Laplae
+573,53,อุตรดิตถ์,5309,53090000,อำเภอทองแสนขัน,Amphoe Thong Saen Khan,ทองแสนขัน,Thong Saen Khan
+574,54,แพร่,5401,54010000,อำเภอเมืองแพร่,Amphoe Mueang Phrae,เมืองแพร่,Mueang Phrae
+575,54,แพร่,5402,54020000,อำเภอร้องกวาง,Amphoe Rong Kwang,ร้องกวาง,Rong Kwang
+576,54,แพร่,5403,54030000,อำเภอลอง,Amphoe Long,ลอง,Long
+577,54,แพร่,5404,54040000,อำเภอสูงเม่น,Amphoe Sung Men,สูงเม่น,Sung Men
+578,54,แพร่,5405,54050000,อำเภอเด่นชัย,Amphoe Den Chai,เด่นชัย,Den Chai
+579,54,แพร่,5406,54060000,อำเภอสอง,Amphoe Song,สอง,Song
+580,54,แพร่,5407,54070000,อำเภอวังชิ้น,Amphoe Wang Chin,วังชิ้น,Wang Chin
+581,54,แพร่,5408,54080000,อำเภอหนองม่วงไข่,Amphoe Nong Muang Khai,หนองม่วงไข่,Nong Muang Khai
+582,55,น่าน,5501,55010000,อำเภอเมืองน่าน,Amphoe Mueang Nan,เมืองน่าน,Mueang Nan
+583,55,น่าน,5502,55020000,อำเภอแม่จริม,Amphoe Mae Charim,แม่จริม,Mae Charim
+584,55,น่าน,5503,55030000,อำเภอบ้านหลวง,Amphoe Ban Luang,บ้านหลวง,Ban Luang
+585,55,น่าน,5504,55040000,อำเภอนาน้อย,Amphoe Na Noi,นาน้อย,Na Noi
+586,55,น่าน,5505,55050000,อำเภอปัว,Amphoe Pua,ปัว,Pua
+587,55,น่าน,5506,55060000,อำเภอท่าวังผา,Amphoe Tha Wang Pha,ท่าวังผา,Tha Wang Pha
+588,55,น่าน,5507,55070000,อำเภอเวียงสา,Amphoe Wiang Sa,เวียงสา,Wiang Sa
+589,55,น่าน,5508,55080000,อำเภอทุ่งช้าง,Amphoe Thung Chang,ทุ่งช้าง,Thung Chang
+590,55,น่าน,5509,55090000,อำเภอเชียงกลาง,Amphoe Chiang Klang,เชียงกลาง,Chiang Klang
+591,55,น่าน,5510,55100000,อำเภอนาหมื่น,Amphoe Na Muen,นาหมื่น,Na Muen
+592,55,น่าน,5511,55110000,อำเภอสันติสุข,Amphoe Santi Suk,สันติสุข,Santi Suk
+593,55,น่าน,5512,55120000,อำเภอบ่อเกลือ,Amphoe Bo Kluea,บ่อเกลือ,Bo Kluea
+594,55,น่าน,5513,55130000,อำเภอสองแคว,Amphoe Song Khwae,สองแคว,Song Khwae
+595,55,น่าน,5514,55140000,อำเภอภูเพียง,Amphoe Phu Phiang,ภูเพียง,Phu Phiang
+596,56,พะเยา,5601,56010000,อำเภอเมืองพะเยา,Amphoe Mueang Phayao,เมืองพะเยา,Mueang Phayao
+597,56,พะเยา,5602,56020000,อำเภอจุน,Amphoe Chun,จุน,Chun
+598,56,พะเยา,5603,56030000,อำเภอเชียงคำ,Amphoe Chiang Kham,เชียงคำ,Chiang Kham
+599,56,พะเยา,5604,56040000,อำเภอเชียงม่วน,Amphoe Chiang Muan,เชียงม่วน,Chiang Muan
+600,56,พะเยา,5605,56050000,อำเภอดอกคำใต้,Amphoe Dok Khamtai,ดอกคำใต้,Dok Khamtai
+601,56,พะเยา,5606,56060000,อำเภอปง,Amphoe Pong,ปง,Pong
+602,56,พะเยา,5607,56070000,อำเภอแม่ใจ,Amphoe Mae Chai,แม่ใจ,Mae Chai
+603,56,พะเยา,5608,56080000,อำเภอภูซาง,Amphoe Phu Sang,ภูซาง,Phu Sang
+604,56,พะเยา,5609,56090000,อำเภอภูกามยาว,Amphoe Phu Kamyao,ภูกามยาว,Phu Kamyao
+605,57,เชียงราย,5701,57010000,อำเภอเมืองเชียงราย,Amphoe Mueang Chiang Rai,เมืองเชียงราย,Mueang Chiang Rai
+606,57,เชียงราย,5702,57020000,อำเภอเวียงชัย,Amphoe Wiang Chai,เวียงชัย,Wiang Chai
+607,57,เชียงราย,5703,57030000,อำเภอเชียงของ,Amphoe Chiang Khong,เชียงของ,Chiang Khong
+608,57,เชียงราย,5704,57040000,อำเภอเทิง,Amphoe Thoeng,เทิง,Thoeng
+609,57,เชียงราย,5705,57050000,อำเภอพาน,Amphoe Phan,พาน,Phan
+610,57,เชียงราย,5706,57060000,อำเภอป่าแดด,Amphoe Pa Daet,ป่าแดด,Pa Daet
+611,57,เชียงราย,5707,57070000,อำเภอแม่จัน,Amphoe Mae Chan,แม่จัน,Mae Chan
+612,57,เชียงราย,5708,57080000,อำเภอเชียงแสน,Amphoe Chiang Saen,เชียงแสน,Chiang Saen
+613,57,เชียงราย,5709,57090000,อำเภอแม่สาย,Amphoe Mae Sai,แม่สาย,Mae Sai
+614,57,เชียงราย,5710,57100000,อำเภอแม่สรวย,Amphoe Mae Suai,แม่สรวย,Mae Suai
+615,57,เชียงราย,5711,57110000,อำเภอเวียงป่าเป้า,Amphoe Wiang Pa Pao,เวียงป่าเป้า,Wiang Pa Pao
+616,57,เชียงราย,5712,57120000,อำเภอพญาเม็งราย,Amphoe Phaya Mengrai,พญาเม็งราย,Phaya Mengrai
+617,57,เชียงราย,5713,57130000,อำเภอเวียงแก่น,Amphoe Wiang Kaen,เวียงแก่น,Wiang Kaen
+618,57,เชียงราย,5714,57140000,อำเภอขุนตาล,Amphoe Khun Tan,ขุนตาล,Khun Tan
+619,57,เชียงราย,5715,57150000,อำเภอแม่ฟ้าหลวง,Amphoe Mae Fa Luang,แม่ฟ้าหลวง,Mae Fa Luang
+620,57,เชียงราย,5716,57160000,อำเภอแม่ลาว,Amphoe Mae Lao,แม่ลาว,Mae Lao
+621,57,เชียงราย,5717,57170000,อำเภอเวียงเชียงรุ้ง,Amphoe Wiang Chiang Rung,เวียงเชียงรุ้ง,Wiang Chiang Rung
+622,57,เชียงราย,5718,57180000,อำเภอดอยหลวง,Amphoe Doi Luang,ดอยหลวง,Doi Luang
+623,58,แม่ฮ่องสอน,5801,58010000,อำเภอเมืองแม่ฮ่องสอน,Amphoe Mueang Mae Hong Son,เมืองแม่ฮ่องสอน,Mueang Mae Hong Son
+624,58,แม่ฮ่องสอน,5802,58020000,อำเภอขุนยวม,Amphoe Khun Yuam,ขุนยวม,Khun Yuam
+625,58,แม่ฮ่องสอน,5803,58030000,อำเภอปาย,Amphoe Pai,ปาย,Pai
+626,58,แม่ฮ่องสอน,5804,58040000,อำเภอแม่สะเรียง,Amphoe Mae Sariang,แม่สะเรียง,Mae Sariang
+627,58,แม่ฮ่องสอน,5805,58050000,อำเภอแม่ลาน้อย,Amphoe Mae La Noi,แม่ลาน้อย,Mae La Noi
+628,58,แม่ฮ่องสอน,5806,58060000,อำเภอสบเมย,Amphoe Sop Moei,สบเมย,Sop Moei
+629,58,แม่ฮ่องสอน,5807,58070000,อำเภอปางมะผ้า,Amphoe Pang Mapha,ปางมะผ้า,Pang Mapha
+630,60,นครสวรรค์,6001,60010000,อำเภอเมืองนครสวรรค์,Amphoe Mueang Nakhon Sawan,เมืองนครสวรรค์,Mueang Nakhon Sawan
+631,60,นครสวรรค์,6002,60020000,อำเภอโกรกพระ,Amphoe Krok Phra,โกรกพระ,Krok Phra
+632,60,นครสวรรค์,6003,60030000,อำเภอชุมแสง,Amphoe Chum Saeng,ชุมแสง,Chum Saeng
+633,60,นครสวรรค์,6004,60040000,อำเภอหนองบัว,Amphoe Nong Bua,หนองบัว,Nong Bua
+634,60,นครสวรรค์,6005,60050000,อำเภอบรรพตพิสัย,Amphoe Banphot Phisai,บรรพตพิสัย,Banphot Phisai
+635,60,นครสวรรค์,6006,60060000,อำเภอเก้าเลี้ยว,Amphoe Kao Liao,เก้าเลี้ยว,Kao Liao
+636,60,นครสวรรค์,6006,60060000,อำเภอมหาโพธิ,Amphoe Maha Pho,มหาโพธิ,Maha Pho
+637,60,นครสวรรค์,6007,60070000,อำเภอตาคลี,Amphoe Takhli,ตาคลี,Takhli
+638,60,นครสวรรค์,6008,60080000,อำเภอท่าตะโก,Amphoe Tha Tako,ท่าตะโก,Tha Tako
+639,60,นครสวรรค์,6009,60090000,อำเภอไพศาลี,Amphoe Phaisali,ไพศาลี,Phaisali
+640,60,นครสวรรค์,6010,60100000,อำเภอพยุหะคีรี,Amphoe Phayuha Khiri,พยุหะคีรี,Phayuha Khiri
+641,60,นครสวรรค์,6011,60110000,อำเภอลาดยาว,Amphoe Lat Yao,ลาดยาว,Lat Yao
+642,60,นครสวรรค์,6012,60120000,อำเภอตากฟ้า,Amphoe Tak Fa,ตากฟ้า,Tak Fa
+643,60,นครสวรรค์,6013,60130000,อำเภอแม่วงก์,Amphoe Mae Wong,แม่วงก์,Mae Wong
+644,60,นครสวรรค์,6014,60140000,อำเภอแม่เปิน,Amphoe Mae Poen,แม่เปิน,Mae Poen
+645,60,นครสวรรค์,6015,60150000,อำเภอชุมตาบง,Amphoe Chum Ta Bong,ชุมตาบง,Chum Ta Bong
+646,61,อุทัยธานี,6101,61010000,อำเภอเมืองอุทัยธานี,Amphoe Mueang Uthai Thani,เมืองอุทัยธานี,Mueang Uthai Thani
+647,61,อุทัยธานี,6102,61020000,อำเภอทัพทัน,Amphoe Thap Than,ทัพทัน,Thap Than
+648,61,อุทัยธานี,6103,61030000,อำเภอสว่างอารมณ์,Amphoe Sawang Arom,สว่างอารมณ์,Sawang Arom
+649,61,อุทัยธานี,6104,61040000,อำเภอหนองฉาง,Amphoe Nong Chang,หนองฉาง,Nong Chang
+650,61,อุทัยธานี,6105,61050000,อำเภอหนองขาหย่าง,Amphoe Nong Khayang,หนองขาหย่าง,Nong Khayang
+651,61,อุทัยธานี,6106,61060000,อำเภอบ้านไร่,Amphoe Ban Rai,บ้านไร่,Ban Rai
+652,61,อุทัยธานี,6107,61070000,อำเภอลานสัก,Amphoe Lan Sak,ลานสัก,Lan Sak
+653,61,อุทัยธานี,6108,61080000,อำเภอห้วยคต,Amphoe Huai Khot,ห้วยคต,Huai Khot
+654,62,กำแพงเพชร,6201,62010000,อำเภอเมืองกำแพงเพชร,Amphoe Mueang Kamphaeng Phet,เมืองกำแพงเพชร,Mueang Kamphaeng Phet
+655,62,กำแพงเพชร,6202,62020000,อำเภอไทรงาม,Amphoe Sai Ngam,ไทรงาม,Sai Ngam
+656,62,กำแพงเพชร,6203,62030000,อำเภอคลองลาน,Amphoe Khlong Lan,คลองลาน,Khlong Lan
+657,62,กำแพงเพชร,6204,62040000,อำเภอขาณุวรลักษบุรี,Amphoe Khanu Woralaksaburi,ขาณุวรลักษบุรี,Khanu Woralaksaburi
+658,62,กำแพงเพชร,6205,62050000,อำเภอคลองขลุง,Amphoe Khlong Khlung,คลองขลุง,Khlong Khlung
+659,62,กำแพงเพชร,6206,62060000,อำเภอพรานกระต่าย,Amphoe Phran Kratai,พรานกระต่าย,Phran Kratai
+660,62,กำแพงเพชร,6207,62070000,อำเภอลานกระบือ,Amphoe Lan Krabue,ลานกระบือ,Lan Krabue
+661,62,กำแพงเพชร,6208,62080000,อำเภอทรายทองวัฒนา,Amphoe Sai Thong Watthana,ทรายทองวัฒนา,Sai Thong Watthana
+662,62,กำแพงเพชร,6209,62090000,อำเภอปางศิลาทอง,Amphoe Pang Sila Thong,ปางศิลาทอง,Pang Sila Thong
+663,62,กำแพงเพชร,6210,62100000,อำเภอบึงสามัคคี,Amphoe Bueng Samakkhi,บึงสามัคคี,Bueng Samakkhi
+664,62,กำแพงเพชร,6211,62110000,อำเภอโกสัมพีนคร,Amphoe Kosamphi Nakhon,โกสัมพีนคร,Kosamphi Nakhon
+665,63,ตาก,6301,63010000,อำเภอเมืองตาก,Amphoe Mueang Tak,เมืองตาก,Mueang Tak
+666,63,ตาก,6302,63020000,อำเภอบ้านตาก,Amphoe Ban Tak,บ้านตาก,Ban Tak
+667,63,ตาก,6303,63030000,อำเภอสามเงา,Amphoe Sam Ngao,สามเงา,Sam Ngao
+668,63,ตาก,6304,63040000,อำเภอแม่ระมาด,Amphoe Mae Ramat,แม่ระมาด,Mae Ramat
+669,63,ตาก,6305,63050000,อำเภอท่าสองยาง,Amphoe Tha Song Yang,ท่าสองยาง,Tha Song Yang
+670,63,ตาก,6306,63060000,อำเภอแม่สอด,Amphoe Mae Sot,แม่สอด,Mae Sot
+671,63,ตาก,6307,63070000,อำเภอพบพระ,Amphoe Phop Phra,พบพระ,Phop Phra
+672,63,ตาก,6308,63080000,อำเภออุ้มผาง,Amphoe Umphang,อุ้มผาง,Umphang
+673,63,ตาก,6309,63090000,อำเภอวังเจ้า,Amphoe Wang Chao,วังเจ้า,Wang Chao
+674,64,สุโขทัย,6401,64010000,อำเภอเมืองสุโขทัย,Amphoe Mueang Sukhothai,เมืองสุโขทัย,Mueang Sukhothai
+675,64,สุโขทัย,6402,64020000,อำเภอบ้านด่านลานหอย,Amphoe Ban Dan Lan Hoi,บ้านด่านลานหอย,Ban Dan Lan Hoi
+676,64,สุโขทัย,6403,64030000,อำเภอคีรีมาศ,Amphoe Khiri Mat,คีรีมาศ,Khiri Mat
+677,64,สุโขทัย,6404,64040000,อำเภอกงไกรลาศ,Amphoe Kong Krailat,กงไกรลาศ,Kong Krailat
+678,64,สุโขทัย,6405,64050000,อำเภอศรีสัชนาลัย,Amphoe Si Satchanalai,ศรีสัชนาลัย,Si Satchanalai
+679,64,สุโขทัย,6406,64060000,อำเภอศรีสำโรง,Amphoe Si Samrong,ศรีสำโรง,Si Samrong
+680,64,สุโขทัย,6407,64070000,อำเภอสวรรคโลก,Amphoe Sawankhalok,สวรรคโลก,Sawankhalok
+681,64,สุโขทัย,6408,64080000,อำเภอศรีนคร,Amphoe Si Nakhon,ศรีนคร,Si Nakhon
+682,64,สุโขทัย,6409,64090000,อำเภอทุ่งเสลี่ยม,Amphoe Thung Saliam,ทุ่งเสลี่ยม,Thung Saliam
+683,65,พิษณุโลก,6501,65010000,อำเภอเมืองพิษณุโลก,Amphoe Mueang Phitsanulok,เมืองพิษณุโลก,Mueang Phitsanulok
+684,65,พิษณุโลก,6502,65020000,อำเภอนครไทย,Amphoe Nakhon Thai,นครไทย,Nakhon Thai
+685,65,พิษณุโลก,6503,65030000,อำเภอชาติตระการ,Amphoe Chat Trakan,ชาติตระการ,Chat Trakan
+686,65,พิษณุโลก,6504,65040000,อำเภอบางระกำ,Amphoe Bang Rakam,บางระกำ,Bang Rakam
+687,65,พิษณุโลก,6505,65050000,อำเภอบางกระทุ่ม,Amphoe Bang Krathum,บางกระทุ่ม,Bang Krathum
+688,65,พิษณุโลก,6506,65060000,อำเภอพรหมพิราม,Amphoe Phrom Phiram,พรหมพิราม,Phrom Phiram
+689,65,พิษณุโลก,6507,65070000,อำเภอวัดโบสถ์,Amphoe Wat Bot,วัดโบสถ์,Wat Bot
+690,65,พิษณุโลก,6508,65080000,อำเภอวังทอง,Amphoe Wang Thong,วังทอง,Wang Thong
+691,65,พิษณุโลก,6509,65090000,อำเภอเนินมะปราง,Amphoe Noen Maprang,เนินมะปราง,Noen Maprang
+692,66,พิจิตร,6601,66010000,อำเภอเมืองพิจิตร,Amphoe Mueang Phichit,เมืองพิจิตร,Mueang Phichit
+693,66,พิจิตร,6602,66020000,อำเภอวังทรายพูน,Amphoe Wang Sai Phun,วังทรายพูน,Wang Sai Phun
+694,66,พิจิตร,6603,66030000,อำเภอโพธิ์ประทับช้าง,Amphoe Pho Prathap Chang,โพธิ์ประทับช้าง,Pho Prathap Chang
+695,66,พิจิตร,6604,66040000,อำเภอตะพานหิน,Amphoe Taphan Hin,ตะพานหิน,Taphan Hin
+696,66,พิจิตร,6605,66050000,อำเภอบางมูลนาก,Amphoe Bang Mun Nak,บางมูลนาก,Bang Mun Nak
+697,66,พิจิตร,6606,66060000,อำเภอโพทะเล,Amphoe Pho Thale,โพทะเล,Pho Thale
+698,66,พิจิตร,6607,66070000,อำเภอสามง่าม,Amphoe Sam Ngam,สามง่าม,Sam Ngam
+699,66,พิจิตร,6608,66080000,อำเภอทับคล้อ,Amphoe Tap Khlo,ทับคล้อ,Tap Khlo
+700,66,พิจิตร,6609,66090000,อำเภอสากเหล็ก,Amphoe Sak Lek,สากเหล็ก,Sak Lek
+701,66,พิจิตร,6610,66100000,อำเภอบึงนาราง,Amphoe Bueng Na Rang,บึงนาราง,Bueng Na Rang
+702,66,พิจิตร,6611,66110000,อำเภอดงเจริญ,Amphoe Dong Charoen,ดงเจริญ,Dong Charoen
+703,66,พิจิตร,6612,66120000,อำเภอวชิรบารมี,Amphoe Wachirabarami,วชิรบารมี,Wachirabarami
+704,67,เพชรบูรณ์,6701,67010000,อำเภอเมืองเพชรบูรณ์,Amphoe Mueang Phetchabun,เมืองเพชรบูรณ์,Mueang Phetchabun
+705,67,เพชรบูรณ์,6702,67020000,อำเภอชนแดน,Amphoe Chon Daen,ชนแดน,Chon Daen
+706,67,เพชรบูรณ์,6703,67030000,อำเภอหล่มสัก,Amphoe Lom Sak,หล่มสัก,Lom Sak
+707,67,เพชรบูรณ์,6704,67040000,อำเภอหล่มเก่า,Amphoe Lom Kao,หล่มเก่า,Lom Kao
+708,67,เพชรบูรณ์,6705,67050000,อำเภอวิเชียรบุรี,Amphoe Wichian Buri,วิเชียรบุรี,Wichian Buri
+709,67,เพชรบูรณ์,6706,67060000,อำเภอศรีเทพ,Amphoe Si Thep,ศรีเทพ,Si Thep
+710,67,เพชรบูรณ์,6707,67070000,อำเภอหนองไผ่,Amphoe Nong Phai,หนองไผ่,Nong Phai
+711,67,เพชรบูรณ์,6708,67080000,อำเภอบึงสามพัน,Amphoe Bueng Sam Phan,บึงสามพัน,Bueng Sam Phan
+712,67,เพชรบูรณ์,6709,67090000,อำเภอน้ำหนาว,Amphoe Nam Nao,น้ำหนาว,Nam Nao
+713,67,เพชรบูรณ์,6710,67100000,อำเภอวังโป่ง,Amphoe Wang Pong,วังโป่ง,Wang Pong
+714,67,เพชรบูรณ์,6711,67110000,อำเภอเขาค้อ,Amphoe Khao Kho,เขาค้อ,Khao Kho
+715,70,ราชบุรี,7001,70010000,อำเภอเมืองราชบุรี,Amphoe Mueang Ratchaburi,เมืองราชบุรี,Mueang Ratchaburi
+716,70,ราชบุรี,7002,70020000,อำเภอจอมบึง,Amphoe Chom Bueng,จอมบึง,Chom Bueng
+717,70,ราชบุรี,7003,70030000,อำเภอสวนผึ้ง,Amphoe Suan Phueng,สวนผึ้ง,Suan Phueng
+718,70,ราชบุรี,7004,70040000,อำเภอดำเนินสะดวก,Amphoe Damnoen Saduak,ดำเนินสะดวก,Damnoen Saduak
+719,70,ราชบุรี,7005,70050000,อำเภอบ้านโป่ง,Amphoe Ban Pong,บ้านโป่ง,Ban Pong
+720,70,ราชบุรี,7006,70060000,อำเภอบางแพ,Amphoe Bang Phae,บางแพ,Bang Phae
+721,70,ราชบุรี,7007,70070000,อำเภอโพธาราม,Amphoe Photharam,โพธาราม,Photharam
+722,70,ราชบุรี,7008,70080000,อำเภอปากท่อ,Amphoe Pak Tho,ปากท่อ,Pak Tho
+723,70,ราชบุรี,7009,70090000,อำเภอวัดเพลง,Amphoe Wat Phleng,วัดเพลง,Wat Phleng
+724,70,ราชบุรี,7010,70100000,อำเภอบ้านคา,Amphoe Ban Kha,บ้านคา,Ban Kha
+725,71,กาญจนบุรี,7101,71010000,อำเภอเมืองกาญจนบุรี,Amphoe Mueang Kanchanaburi,เมืองกาญจนบุรี,Mueang Kanchanaburi
+726,71,กาญจนบุรี,7102,71020000,อำเภอไทรโยค,Amphoe Sai Yok,ไทรโยค,Sai Yok
+727,71,กาญจนบุรี,7103,71030000,อำเภอบ่อพลอย,Amphoe Bo Phloi,บ่อพลอย,Bo Phloi
+728,71,กาญจนบุรี,7104,71040000,อำเภอศรีสวัสดิ์,Amphoe Si Sawat,ศรีสวัสดิ์,Si Sawat
+729,71,กาญจนบุรี,7105,71050000,อำเภอท่ามะกา,Amphoe Tha Maka,ท่ามะกา,Tha Maka
+730,71,กาญจนบุรี,7106,71060000,อำเภอท่าม่วง,Amphoe Tha Muang,ท่าม่วง,Tha Muang
+731,71,กาญจนบุรี,7107,71070000,อำเภอทองผาภูมิ,Amphoe Thong Pha Phum,ทองผาภูมิ,Thong Pha Phum
+732,71,กาญจนบุรี,7108,71080000,อำเภอสังขละบุรี,Amphoe Sangkhla Buri,สังขละบุรี,Sangkhla Buri
+733,71,กาญจนบุรี,7109,71090000,อำเภอพนมทวน,Amphoe Phanom Thuan,พนมทวน,Phanom Thuan
+734,71,กาญจนบุรี,7110,71100000,อำเภอเลาขวัญ,Amphoe Lao Khwan,เลาขวัญ,Lao Khwan
+735,71,กาญจนบุรี,7111,71110000,อำเภอด่านมะขามเตี้ย,Amphoe Dan Makham Tia,ด่านมะขามเตี้ย,Dan Makham Tia
+736,71,กาญจนบุรี,7112,71120000,อำเภอหนองปรือ,Amphoe Nong Prue,หนองปรือ,Nong Prue
+737,71,กาญจนบุรี,7113,71130000,อำเภอห้วยกระเจา,Amphoe Huai Krachao,ห้วยกระเจา,Huai Krachao
+738,72,สุพรรณบุรี,7201,72010000,อำเภอเมืองสุพรรณบุรี,Amphoe Mueang Suphan Buri,เมืองสุพรรณบุรี,Mueang Suphan Buri
+739,72,สุพรรณบุรี,7202,72020000,อำเภอเดิมบางนางบวช,Amphoe Doem Bang Nang Buat,เดิมบางนางบวช,Doem Bang Nang Buat
+740,72,สุพรรณบุรี,7203,72030000,อำเภอด่านช้าง,Amphoe Dan Chang,ด่านช้าง,Dan Chang
+741,72,สุพรรณบุรี,7204,72040000,อำเภอบางปลาม้า,Amphoe Bang Pla Ma,บางปลาม้า,Bang Pla Ma
+742,72,สุพรรณบุรี,7205,72050000,อำเภอศรีประจันต์,Amphoe Si Prachan,ศรีประจันต์,Si Prachan
+743,72,สุพรรณบุรี,7206,72060000,อำเภอดอนเจดีย์,Amphoe Don Chedi,ดอนเจดีย์,Don Chedi
+744,72,สุพรรณบุรี,7207,72070000,อำเภอสองพี่น้อง,Amphoe Song Phi Nong,สองพี่น้อง,Song Phi Nong
+745,72,สุพรรณบุรี,7208,72080000,อำเภอสามชุก,Amphoe Sam Chuk,สามชุก,Sam Chuk
+746,72,สุพรรณบุรี,7209,72090000,อำเภออู่ทอง,Amphoe U Thong,อู่ทอง,U Thong
+747,72,สุพรรณบุรี,7210,72100000,อำเภอหนองหญ้าไซ,Amphoe Nong Ya Sai,หนองหญ้าไซ,Nong Ya Sai
+748,73,นครปฐม,7301,73010000,อำเภอเมืองนครปฐม,Amphoe Mueang Nakhon Pathom,เมืองนครปฐม,Mueang Nakhon Pathom
+749,73,นครปฐม,7302,73020000,อำเภอกำแพงแสน,Amphoe Kamphaeng Saen,กำแพงแสน,Kamphaeng Saen
+750,73,นครปฐม,7303,73030000,อำเภอนครชัยศรี,Amphoe Nakhon Chai Si,นครชัยศรี,Nakhon Chai Si
+751,73,นครปฐม,7304,73040000,อำเภอดอนตูม,Amphoe Don Tum,ดอนตูม,Don Tum
+752,73,นครปฐม,7305,73050000,อำเภอบางเลน,Amphoe Bang Len,บางเลน,Bang Len
+753,73,นครปฐม,7306,73060000,อำเภอสามพราน,Amphoe Sam Phran,สามพราน,Sam Phran
+754,73,นครปฐม,7307,73070000,อำเภอพุทธมณฑล,Amphoe Phutthamonthon,พุทธมณฑล,Phutthamonthon
+755,74,สมุทรสาคร,7401,74010000,อำเภอเมืองสมุทรสาคร,Amphoe Mueang Samut Sakhon,เมืองสมุทรสาคร,Mueang Samut Sakhon
+756,74,สมุทรสาคร,7402,74020000,อำเภอกระทุ่มแบน,Amphoe Krathum Baen,กระทุ่มแบน,Krathum Baen
+757,74,สมุทรสาคร,7403,74030000,อำเภอบ้านแพ้ว,Amphoe Ban Phaeo,บ้านแพ้ว,Ban Phaeo
+758,75,สมุทรสงคราม,7501,75010000,อำเภอเมืองสมุทรสงคราม,Amphoe Mueang Samut Songkhram,เมืองสมุทรสงคราม,Mueang Samut Songkhram
+759,75,สมุทรสงคราม,7502,75020000,อำเภอบางคนที,Amphoe Bang Khonthi,บางคนที,Bang Khonthi
+760,75,สมุทรสงคราม,7503,75030000,อำเภออัมพวา,Amphoe Amphawa,อัมพวา,Amphawa
+761,76,เพชรบุรี,7601,76010000,อำเภอเมืองเพชรบุรี,Amphoe Mueang Phetchaburi,เมืองเพชรบุรี,Mueang Phetchaburi
+762,76,เพชรบุรี,7602,76020000,อำเภอเขาย้อย,Amphoe Khao Yoi,เขาย้อย,Khao Yoi
+763,76,เพชรบุรี,7603,76030000,อำเภอหนองหญ้าปล้อง,Amphoe Nong Ya Plong,หนองหญ้าปล้อง,Nong Ya Plong
+764,76,เพชรบุรี,7604,76040000,อำเภอชะอำ,Amphoe Cha-am,ชะอำ,Cha-am
+765,76,เพชรบุรี,7605,76050000,อำเภอท่ายาง,Amphoe Tha Yang,ท่ายาง,Tha Yang
+766,76,เพชรบุรี,7606,76060000,อำเภอบ้านลาด,Amphoe Ban Lat,บ้านลาด,Ban Lat
+767,76,เพชรบุรี,7607,76070000,อำเภอบ้านแหลม,Amphoe Ban Laem,บ้านแหลม,Ban Laem
+768,76,เพชรบุรี,7608,76080000,อำเภอแก่งกระจาน,Amphoe Kaeng Krachan,แก่งกระจาน,Kaeng Krachan
+769,77,ประจวบคีรีขันธ์,7701,77010000,อำเภอเมืองประจวบคีรีขันธ์,Amphoe Mueang Prachuap Khiri Khan,เมืองประจวบคีรีขันธ์,Mueang Prachuap Khiri Khan
+770,77,ประจวบคีรีขันธ์,7702,77020000,อำเภอกุยบุรี,Amphoe Kui Buri,กุยบุรี,Kui Buri
+771,77,ประจวบคีรีขันธ์,7703,77030000,อำเภอทับสะแก,Amphoe Thap Sakae,ทับสะแก,Thap Sakae
+772,77,ประจวบคีรีขันธ์,7704,77040000,อำเภอบางสะพาน,Amphoe Bang Saphan,บางสะพาน,Bang Saphan
+773,77,ประจวบคีรีขันธ์,7705,77050000,อำเภอบางสะพานน้อย,Amphoe Bang Saphan Noi,บางสะพานน้อย,Bang Saphan Noi
+774,77,ประจวบคีรีขันธ์,7706,77060000,อำเภอปราณบุรี,Amphoe Pran Buri,ปราณบุรี,Pran Buri
+775,77,ประจวบคีรีขันธ์,7707,77070000,อำเภอหัวหิน,Amphoe Hua Hin,หัวหิน,Hua Hin
+776,77,ประจวบคีรีขันธ์,7708,77080000,อำเภอสามร้อยยอด,Amphoe Sam Roi Yot,สามร้อยยอด,Sam Roi Yot
+777,80,นครศรีธรรมราช,8001,80010000,อำเภอเมืองนครศรีธรรมราช,Amphoe Mueang Nakhon Si Thammarat,เมืองนครศรีธรรมราช,Mueang Nakhon Si Thammarat
+778,80,นครศรีธรรมราช,8002,80020000,อำเภอพรหมคีรี,Amphoe Phrom  Khiri,พรหมคีรี,Phrom  Khiri
+779,80,นครศรีธรรมราช,8003,80030000,อำเภอลานสกา,Amphoe Lan Saka,ลานสกา,Lan Saka
+780,80,นครศรีธรรมราช,8004,80040000,อำเภอฉวาง,Amphoe Chawang,ฉวาง,Chawang
+781,80,นครศรีธรรมราช,8005,80050000,อำเภอพิปูน,Amphoe Phipun,พิปูน,Phipun
+782,80,นครศรีธรรมราช,8006,80060000,อำเภอเชียรใหญ่,Amphoe Chian Yai,เชียรใหญ่,Chian Yai
+783,80,นครศรีธรรมราช,8007,80070000,อำเภอชะอวด,Amphoe Cha-uat,ชะอวด,Cha-uat
+784,80,นครศรีธรรมราช,8008,80080000,อำเภอท่าศาลา,Amphoe Tha Sala,ท่าศาลา,Tha Sala
+785,80,นครศรีธรรมราช,8009,80090000,อำเภอทุ่งสง,Amphoe Thung Song,ทุ่งสง,Thung Song
+786,80,นครศรีธรรมราช,8010,80100000,อำเภอนาบอน,Amphoe Na Bon,นาบอน,Na Bon
+787,80,นครศรีธรรมราช,8011,80110000,อำเภอทุ่งใหญ่,Amphoe Thung Yai,ทุ่งใหญ่,Thung Yai
+788,80,นครศรีธรรมราช,8012,80120000,อำเภอปากพนัง,Amphoe Pak Phanang,ปากพนัง,Pak Phanang
+789,80,นครศรีธรรมราช,8013,80130000,อำเภอร่อนพิบูลย์,Amphoe Ron Phibun,ร่อนพิบูลย์,Ron Phibun
+790,80,นครศรีธรรมราช,8014,80140000,อำเภอสิชล,Amphoe Sichon,สิชล,Sichon
+791,80,นครศรีธรรมราช,8015,80150000,อำเภอขนอม,Amphoe Khanom,ขนอม,Khanom
+792,80,นครศรีธรรมราช,8016,80160000,อำเภอหัวไทร,Amphoe Hua Sai,หัวไทร,Hua Sai
+793,80,นครศรีธรรมราช,8017,80170000,อำเภอบางขัน,Amphoe Bang Khan,บางขัน,Bang Khan
+794,80,นครศรีธรรมราช,8018,80180000,อำเภอถ้ำพรรณรา,Amphoe Tham Phannara,ถ้ำพรรณรา,Tham Phannara
+795,80,นครศรีธรรมราช,8019,80190000,อำเภอจุฬาภรณ์,Amphoe Chulabhorn,จุฬาภรณ์,Chulabhorn
+796,80,นครศรีธรรมราช,8020,80200000,อำเภอพระพรหม,Amphoe Phra Phrom,พระพรหม,Phra Phrom
+797,80,นครศรีธรรมราช,8021,80210000,อำเภอนบพิตำ,Amphoe Nopphitam,นบพิตำ,Nopphitam
+798,80,นครศรีธรรมราช,8022,80220000,อำเภอช้างกลาง,Amphoe Chang Klang,ช้างกลาง,Chang Klang
+799,81,กระบี่,8101,81010000,อำเภอเมืองกระบี่,Amphoe Mueang Krabi,เมืองกระบี่,Mueang Krabi
+800,81,กระบี่,8102,81020000,อำเภอเขาพนม,Amphoe Khao Phanom,เขาพนม,Khao Phanom
+801,81,กระบี่,8103,81030000,อำเภอเกาะลันตา,Amphoe Ko Lanta,เกาะลันตา,Ko Lanta
+802,81,กระบี่,8104,81040000,อำเภอคลองท่อม,Amphoe Khlong Thom,คลองท่อม,Khlong Thom
+803,81,กระบี่,8105,81050000,อำเภออ่าวลึก,Amphoe Ao Luek,อ่าวลึก,Ao Luek
+804,81,กระบี่,8106,81060000,อำเภอปลายพระยา,Amphoe Plai Phraya,ปลายพระยา,Plai Phraya
+805,81,กระบี่,8107,81070000,อำเภอลำทับ,Amphoe Lam Thap,ลำทับ,Lam Thap
+806,81,กระบี่,8108,81080000,อำเภอเหนือคลอง,Amphoe Nuea Khlong,เหนือคลอง,Nuea Khlong
+807,82,พังงา,8201,82010000,อำเภอเมืองพังงา,Amphoe Mueang Phangnga,เมืองพังงา,Mueang Phangnga
+808,82,พังงา,8202,82020000,อำเภอเกาะยาว,Amphoe Ko Yao,เกาะยาว,Ko Yao
+809,82,พังงา,8203,82030000,อำเภอกะปง,Amphoe Kapong,กะปง,Kapong
+810,82,พังงา,8204,82040000,อำเภอตะกั่วทุ่ง,Amphoe Takua Thung,ตะกั่วทุ่ง,Takua Thung
+811,82,พังงา,8205,82050000,อำเภอตะกั่วป่า,Amphoe Takua Pa,ตะกั่วป่า,Takua Pa
+812,82,พังงา,8206,82060000,อำเภอคุระบุรี,Amphoe Khura Buri,คุระบุรี,Khura Buri
+813,82,พังงา,8207,82070000,อำเภอทับปุด,Amphoe Thap Put,ทับปุด,Thap Put
+814,82,พังงา,8208,82080000,อำเภอท้ายเหมือง  ,Amphoe Thai Mueang,ท้ายเหมือง,Thai Mueang
+815,83,ภูเก็ต,8301,83010000,อำเภอเมืองภูเก็ต,Amphoe Mueang Phuket,เมืองภูเก็ต,Mueang Phuket
+816,83,ภูเก็ต,8302,83020000,อำเภอกะทู้,Amphoe Kathu,กะทู้,Kathu
+817,83,ภูเก็ต,8303,83030000,อำเภอถลาง,Amphoe Thalang,ถลาง,Thalang
+818,84,สุราษฎร์ธานี,8401,84010000,อำเภอเมืองสุราษฎร์ธานี,Amphoe Mueang Surat Thani,เมืองสุราษฎร์ธานี,Mueang Surat Thani
+819,84,สุราษฎร์ธานี,8402,84020000,อำเภอกาญจนดิษฐ์,Amphoe Kanchanadit,กาญจนดิษฐ์,Kanchanadit
+820,84,สุราษฎร์ธานี,8403,84030000,อำเภอดอนสัก,Amphoe Don Sak,ดอนสัก,Don Sak
+821,84,สุราษฎร์ธานี,8404,84040000,อำเภอเกาะสมุย,Amphoe Ko Samui,เกาะสมุย,Ko Samui
+822,84,สุราษฎร์ธานี,8405,84050000,อำเภอเกาะพะงัน,Amphoe Ko Pha-ngan,เกาะพะงัน,Ko Pha-ngan
+823,84,สุราษฎร์ธานี,8406,84060000,อำเภอไชยา,Amphoe Chaiya,ไชยา,Chaiya
+824,84,สุราษฎร์ธานี,8407,84070000,อำเภอท่าชนะ,Amphoe Tha Chana,ท่าชนะ,Tha Chana
+825,84,สุราษฎร์ธานี,8408,84080000,อำเภอคีรีรัฐนิคม,Amphoe Khiri Rat  Nikhom,คีรีรัฐนิคม,Khiri Rat  Nikhom
+826,84,สุราษฎร์ธานี,8409,84090000,อำเภอบ้านตาขุน,Amphoe Ban Ta Khun,บ้านตาขุน,Ban Ta Khun
+827,84,สุราษฎร์ธานี,8410,84100000,อำเภอพนม,Amphoe Phanom,พนม,Phanom
+828,84,สุราษฎร์ธานี,8411,84110000,อำเภอท่าฉาง,Amphoe Tha Chang,ท่าฉาง,Tha Chang
+829,84,สุราษฎร์ธานี,8412,84120000,อำเภอบ้านนาสาร,Amphoe Ban Na San,บ้านนาสาร,Ban Na San
+830,84,สุราษฎร์ธานี,8413,84130000,อำเภอบ้านนาเดิม,Amphoe Ban Na Doem,บ้านนาเดิม,Ban Na Doem
+831,84,สุราษฎร์ธานี,8414,84140000,อำเภอเคียนซา,Amphoe Khian Sa,เคียนซา,Khian Sa
+832,84,สุราษฎร์ธานี,8415,84150000,อำเภอเวียงสระ,Amphoe Wiang Sa,เวียงสระ,Wiang Sa
+833,84,สุราษฎร์ธานี,8416,84160000,อำเภอพระแสง,Amphoe Phrasaeng,พระแสง,Phrasaeng
+834,84,สุราษฎร์ธานี,8417,84170000,อำเภอพุนพิน,Amphoe Phunphin,พุนพิน,Phunphin
+835,84,สุราษฎร์ธานี,8418,84180000,อำเภอชัยบุรี,Amphoe Chai Buri,ชัยบุรี,Chai Buri
+836,84,สุราษฎร์ธานี,8419,84190000,อำเภอวิภาวดี,Amphoe Vibhavadi,วิภาวดี,Vibhavadi
+837,85,ระนอง,8501,85010000,อำเภอเมืองระนอง,Amphoe Mueang Ranong,เมืองระนอง,Mueang Ranong
+838,85,ระนอง,8502,85020000,อำเภอละอุ่น,Amphoe La-un,ละอุ่น,La-un
+839,85,ระนอง,8503,85030000,อำเภอกะเปอร์,Amphoe Kapoe,กะเปอร์,Kapoe
+840,85,ระนอง,8504,85040000,อำเภอกระบุรี,Amphoe Kra Buri,กระบุรี,Kra Buri
+841,85,ระนอง,8505,85050000,อำเภอสุขสำราญ,Amphoe Suk Samran,สุขสำราญ,Suk Samran
+842,86,ชุมพร,8601,86010000,อำเภอเมืองชุมพร,Amphoe Mueang Chumphon,เมืองชุมพร,Mueang Chumphon
+843,86,ชุมพร,8602,86020000,อำเภอท่าแซะ,Amphoe Tha Sae,ท่าแซะ,Tha Sae
+844,86,ชุมพร,8603,86030000,อำเภอปะทิว,Amphoe Pathio,ปะทิว,Pathio
+845,86,ชุมพร,8604,86040000,อำเภอหลังสวน  ,Amphoe Lang Suan,หลังสวน,Lang Suan
+846,86,ชุมพร,8605,86050000,อำเภอละแม,Amphoe Lamae,ละแม,Lamae
+847,86,ชุมพร,8606,86060000,อำเภอพะโต๊ะ,Amphoe Phato,พะโต๊ะ,Phato
+848,86,ชุมพร,8607,86070000,อำเภอสวี,Amphoe Sawi,สวี,Sawi
+849,86,ชุมพร,8608,86080000,อำเภอทุ่งตะโก,Amphoe Thung Tako,ทุ่งตะโก,Thung Tako
+850,90,สงขลา,9001,90010000,อำเภอเมืองสงขลา,Amphoe Mueang Songkhla,เมืองสงขลา,Mueang Songkhla
+851,90,สงขลา,9002,90020000,อำเภอสทิงพระ,Amphoe Sathing Phra,สทิงพระ,Sathing Phra
+852,90,สงขลา,9003,90030000,อำเภอจะนะ,Amphoe Chana,จะนะ,Chana
+853,90,สงขลา,9004,90040000,อำเภอนาทวี,Amphoe Na Thawi,นาทวี,Na Thawi
+854,90,สงขลา,9005,90050000,อำเภอเทพา,Amphoe Thepha,เทพา,Thepha
+855,90,สงขลา,9006,90060000,อำเภอสะบ้าย้อย,Amphoe Saba Yoi,สะบ้าย้อย,Saba Yoi
+856,90,สงขลา,9007,90070000,อำเภอระโนด,Amphoe Ranot,ระโนด,Ranot
+857,90,สงขลา,9008,90080000,อำเภอกระแสสินธุ์,Amphoe Krasae Sin,กระแสสินธุ์,Krasae Sin
+858,90,สงขลา,9009,90090000,อำเภอรัตภูมิ,Amphoe Rattaphum,รัตภูมิ,Rattaphum
+859,90,สงขลา,9010,90100000,อำเภอสะเดา,Amphoe Sadao,สะเดา,Sadao
+860,90,สงขลา,9011,90110000,อำเภอหาดใหญ่,Amphoe Hat Yai,หาดใหญ่,Hat Yai
+861,90,สงขลา,9012,90120000,อำเภอนาหม่อม,Amphoe Na Mom,นาหม่อม,Na Mom
+862,90,สงขลา,9013,90130000,อำเภอควนเนียง,Amphoe Khuan Niang,ควนเนียง,Khuan Niang
+863,90,สงขลา,9014,90140000,อำเภอบางกล่ำ,Amphoe Bang Klam,บางกล่ำ,Bang Klam
+864,90,สงขลา,9015,90150000,อำเภอสิงหนคร  ,Amphoe Singhanakhon,สิงหนคร,Singhanakhon
+865,90,สงขลา,9016,90160000,อำเภอคลองหอยโข่ง,Amphoe Khlong Hoi Khong,คลองหอยโข่ง,Khlong Hoi Khong
+866,91,สตูล,9101,91010000,อำเภอเมืองสตูล,Amphoe Mueang Satun,เมืองสตูล,Mueang Satun
+867,91,สตูล,9102,91020000,อำเภอควนโดน,Amphoe Khuan Don,ควนโดน,Khuan Don
+868,91,สตูล,9103,91030000,อำเภอควนกาหลง,Amphoe Khuan Kalong,ควนกาหลง,Khuan Kalong
+869,91,สตูล,9104,91040000,อำเภอท่าแพ,Amphoe Tha Phae,ท่าแพ,Tha Phae
+870,91,สตูล,9105,91050000,อำเภอละงู,Amphoe La-ngu,ละงู,La-ngu
+871,91,สตูล,9106,91060000,อำเภอทุ่งหว้า,Amphoe Thung Wa,ทุ่งหว้า,Thung Wa
+872,91,สตูล,9107,91070000,อำเภอมะนัง,Amphoe Manang,มะนัง,Manang
+873,92,ตรัง,9201,92010000,อำเภอเมืองตรัง,Amphoe Mueang Trang,เมืองตรัง,Mueang Trang
+874,92,ตรัง,9202,92020000,อำเภอกันตัง,Amphoe Kantang,กันตัง,Kantang
+875,92,ตรัง,9203,92030000,อำเภอย่านตาขาว,Amphoe Yan Ta Khao,ย่านตาขาว,Yan Ta Khao
+876,92,ตรัง,9204,92040000,อำเภอปะเหลียน,Amphoe Palian,ปะเหลียน,Palian
+877,92,ตรัง,9205,92050000,อำเภอสิเกา,Amphoe Sikao,สิเกา,Sikao
+878,92,ตรัง,9206,92060000,อำเภอห้วยยอด,Amphoe Huai Yot,ห้วยยอด,Huai Yot
+879,92,ตรัง,9207,92070000,อำเภอวังวิเศษ,Amphoe Wang Wiset,วังวิเศษ,Wang Wiset
+880,92,ตรัง,9208,92080000,อำเภอนาโยง,Amphoe Na Yong,นาโยง,Na Yong
+881,92,ตรัง,9209,92090000,อำเภอรัษฎา,Amphoe Ratsada,รัษฎา,Ratsada
+882,92,ตรัง,9210,92100000,อำเภอหาดสำราญ,Amphoe Hat Samran,หาดสำราญ,Hat Samran
+883,93,พัทลุง,9301,93010000,อำเภอเมืองพัทลุง,Amphoe Mueang Phatthalung,เมืองพัทลุง,Mueang Phatthalung
+884,93,พัทลุง,9302,93020000,อำเภอกงหรา,Amphoe Kong Ra,กงหรา,Kong Ra
+885,93,พัทลุง,9303,93030000,อำเภอเขาชัยสน,Amphoe Khao Chaison,เขาชัยสน,Khao Chaison
+886,93,พัทลุง,9304,93040000,อำเภอตะโหมด,Amphoe Tamot,ตะโหมด,Tamot
+887,93,พัทลุง,9305,93050000,อำเภอควนขนุน,Amphoe Khuan Khanun,ควนขนุน,Khuan Khanun
+888,93,พัทลุง,9306,93060000,อำเภอปากพะยูน,Amphoe Pak Phayun,ปากพะยูน,Pak Phayun
+889,93,พัทลุง,9307,93070000,อำเภอศรีบรรพต,Amphoe Si Banphot,ศรีบรรพต,Si Banphot
+890,93,พัทลุง,9308,93080000,อำเภอป่าบอน,Amphoe Pa Bon,ป่าบอน,Pa Bon
+891,93,พัทลุง,9309,93090000,อำเภอบางแก้ว,Amphoe Bang Kaeo,บางแก้ว,Bang Kaeo
+892,93,พัทลุง,9310,93100000,อำเภอป่าพะยอม,Amphoe Pa Phayom,ป่าพะยอม,Pa Phayom
+893,93,พัทลุง,9311,93110000,อำเภอศรีนครินทร์,Amphoe Srinagarindra,ศรีนครินทร์,Srinagarindra
+894,94,ปัตตานี,9401,94010000,อำเภอเมืองปัตตานี,Amphoe Mueang Pattani,เมืองปัตตานี,Mueang Pattani
+895,94,ปัตตานี,9402,94020000,อำเภอโคกโพธิ์,Amphoe Khok Pho,โคกโพธิ์,Khok Pho
+896,94,ปัตตานี,9403,94030000,อำเภอหนองจิก,Amphoe Nong Chik,หนองจิก,Nong Chik
+897,94,ปัตตานี,9404,94040000,อำเภอปะนาเระ,Amphoe Panare,ปะนาเระ,Panare
+898,94,ปัตตานี,9405,94050000,อำเภอมายอ,Amphoe Mayo,มายอ,Mayo
+899,94,ปัตตานี,9406,94060000,อำเภอทุ่งยางแดง,Amphoe Thung Yang Daeng,ทุ่งยางแดง,Thung Yang Daeng
+900,94,ปัตตานี,9407,94070000,อำเภอสายบุรี,Amphoe Sai Buri,สายบุรี,Sai Buri
+901,94,ปัตตานี,9408,94080000,อำเภอไม้แก่น,Amphoe Mai Kaen,ไม้แก่น,Mai Kaen
+902,94,ปัตตานี,9409,94090000,อำเภอยะหริ่ง,Amphoe Yaring,ยะหริ่ง,Yaring
+903,94,ปัตตานี,9410,94100000,อำเภอยะรัง,Amphoe Yarang,ยะรัง,Yarang
+904,94,ปัตตานี,9411,94110000,อำเภอกะพ้อ,Amphoe Kapho,กะพ้อ,Kapho
+905,94,ปัตตานี,9412,94120000,อำเภอแม่ลาน,Amphoe Mae Lan,แม่ลาน,Mae Lan
+906,95,ยะลา,9501,95010000,อำเภอเมืองยะลา,Amphoe Mueang Yala,เมืองยะลา,Mueang Yala
+907,95,ยะลา,9502,95020000,อำเภอเบตง,Amphoe Betong,เบตง,Betong
+908,95,ยะลา,9503,95030000,อำเภอบันนังสตา,Amphoe Bannang Sata,บันนังสตา,Bannang Sata
+909,95,ยะลา,9504,95040000,อำเภอธารโต,Amphoe Than To,ธารโต,Than To
+910,95,ยะลา,9505,95050000,อำเภอยะหา,Amphoe Yaha,ยะหา,Yaha
+911,95,ยะลา,9506,95060000,อำเภอรามัน,Amphoe Raman,รามัน,Raman
+912,95,ยะลา,9507,95070000,อำเภอกาบัง,Amphoe Kabang,กาบัง,Kabang
+913,95,ยะลา,9508,95080000,อำเภอกรงปินัง,Amphoe Krong Pinang,กรงปินัง,Krong Pinang
+914,96,นราธิวาส,9601,96010000,อำเภอเมืองนราธิวาส,Amphoe Mueang Narathiwat,เมืองนราธิวาส,Mueang Narathiwat
+915,96,นราธิวาส,9602,96020000,อำเภอตากใบ,Amphoe Tak Bai,ตากใบ,Tak Bai
+916,96,นราธิวาส,9603,96030000,อำเภอบาเจาะ,Amphoe Bacho,บาเจาะ,Bacho
+917,96,นราธิวาส,9604,96040000,อำเภอยี่งอ,Amphoe Yi-ngo,ยี่งอ,Yi-ngo
+918,96,นราธิวาส,9605,96050000,อำเภอระแงะ,Amphoe Ra-ngae,ระแงะ,Ra-ngae
+919,96,นราธิวาส,9606,96060000,อำเภอรือเสาะ,Amphoe Rueso,รือเสาะ,Rueso
+920,96,นราธิวาส,9607,96070000,อำเภอศรีสาคร,Amphoe Si Sakhon,ศรีสาคร,Si Sakhon
+921,96,นราธิวาส,9608,96080000,อำเภอแว้ง,Amphoe Waeng,แว้ง,Waeng
+922,96,นราธิวาส,9609,96090000,อำเภอสุคิริน,Amphoe Sukhirin,สุคิริน,Sukhirin
+923,96,นราธิวาส,9610,96100000,อำเภอสุไหงโก-ลก,Amphoe Su-ngai Kolok,สุไหงโก-ลก,Su-ngai Kolok
+924,96,นราธิวาส,9611,96110000,อำเภอสุไหงปาดี,Amphoe Su-ngai Padi,สุไหงปาดี,Su-ngai Padi
+925,96,นราธิวาส,9612,96120000,อำเภอจะแนะ,Amphoe Chanae,จะแนะ,Chanae
+926,96,นราธิวาส,9613,96130000,อำเภอเจาะไอร้อง,Amphoe Cho-airong,เจาะไอร้อง,Cho-airong
