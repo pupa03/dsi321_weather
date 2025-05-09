@@ -8,17 +8,35 @@ st.set_page_config(page_title="Choropleth Map", page_icon="🗺️")
 
 st.title("แผนที่มลพิษรายอำเภอ (Choropleth)")
 
+
+import os
+
+BASE_DIR = os.getcwd()
+# BASE_DIR = os.path.abspath(os.path.join(os.getcwd(), ".."))
+st.write(BASE_DIR)
+geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+st.write(geojson_path)
+
+# กำหนด path แบบ relative จากตำแหน่งของไฟล์ Python นี้
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# geojson_path = os.path.join(BASE_DIR, "../save/gadm41_THA_2.json")
+
+# # โหลดไฟล์
+with open(geojson_path, "r", encoding="utf-8") as f:
+     amphoe_geojson = json.load(f)
+
+
 # 1. โหลด GeoJSON อำเภอ
-with open("../save/gadm41_THA_2.json", "r", encoding="utf-8") as f:
-    amphoe_geojson = json.load(f)
+# with open("../work/save/gadm41_THA_2.json", "r", encoding="utf-8") as f:
+    # amphoe_geojson = json.load(f)
 
 st.write(amphoe_geojson)
 st.write(len(amphoe_geojson))
 
 # 2. โหลดข้อมูลค่ามลพิษ (เช่น pm2.5) รายอำเภอ
 # ต้องมีคอลัมน์: "amphoe_code" (หรือรหัสอำเภอที่ตรงกับ GeoJSON) และ "pm25"
-df = pd.read_parquet("../save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
-df_code = pd.read_csv("../save/amphoe.csv")
+df = pd.read_parquet("../work/save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
+df_code = pd.read_csv("../work/save/amphoe.csv")
 
 # แสดงตัวอย่างข้อมูล
 # st.dataframe(df.head())

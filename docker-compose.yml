@@ -9,6 +9,7 @@ services:
       - "8888:8888"
     volumes:
       - ./work:/home/jovyan/work:rw
+      - ./save:/home/jovyan/save
     environment:
       - PREFECT_API_URL=http://prefect-server:4200/api
     # networks:
@@ -86,7 +87,8 @@ services:
       ports:
         - "8501:8501"
       volumes:
-        - ./streamlit:/streamlit_app
+        - ./streamlit:/app
+        - ./save:/app/save 
       environment:
         - LAKEFS_ACCESS_KEY=access_key
         - LAKEFS_SECRET_KEY=secret_key

@@ -3,11 +3,12 @@ pyarrow==19.0.0
 requests==2.32.3
 kedro==0.19.11
 kedro-datasets==6.0.0
-plotly
-matplotlib
+plotly==6.0.1
+matplotlib==3.10.1
 fsspec==2025.3.2
 s3fs==2025.3.2
-pytz
+pytz==2024.1
 streamlit==1.45.0
 folium
+streamlit-folium
 leafmap

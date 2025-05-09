@@ -2,7 +2,7 @@ FROM prefecthq/prefect:3.0.0rc14-python3.11
 
 USER root
 
-WORKDIR /streamlit_app
+WORKDIR /app
 
 COPY make/requirements.txt /tmp/requirements.txt
 
@@ -12,7 +12,7 @@ RUN apt-get update && \
     pip install --upgrade streamlit && \
     rm -rf /var/lib/apt/lists/*
 
-COPY streamlit /streamlit_app
+COPY streamlit /app
 
 EXPOSE 8501
 
