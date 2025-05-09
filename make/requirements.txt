@@ -7,4 +7,7 @@ plotly
 matplotlib
 fsspec==2025.3.2
 s3fs==2025.3.2
+pytz
 streamlit==1.45.0
+folium
+leafmap
