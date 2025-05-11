@@ -12,3 +12,4 @@ streamlit==1.45.0
 folium
 streamlit-folium
 leafmap
+nest_asyncio

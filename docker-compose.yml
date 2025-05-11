@@ -21,6 +21,8 @@ services:
       - POSTGRES_USER=prefect
       - POSTGRES_PASSWORD=prefect
       - POSTGRES_DB=prefect
+    ports:
+      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     # networks:

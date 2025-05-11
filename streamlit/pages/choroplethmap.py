@@ -35,19 +35,20 @@ st.write(len(amphoe_geojson))
 
 # 2. โหลดข้อมูลค่ามลพิษ (เช่น pm2.5) รายอำเภอ
 # ต้องมีคอลัมน์: "amphoe_code" (หรือรหัสอำเภอที่ตรงกับ GeoJSON) และ "pm25"
-df = pd.read_parquet("../work/save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
-df_code = pd.read_csv("../work/save/amphoe.csv")
+# df = pd.read_parquet("save/f65bb697be7843fd9e092d83f914065f-0.parquet", engine="pyarrow")
+df = pd.read_csv("save/f20c8d74ef9641aca1f97d8b39261aa4-0.csv")
+df_code = pd.read_csv("save/amphoe_coord.csv")
 
 # แสดงตัวอย่างข้อมูล
-# st.dataframe(df.head())
-# st.dataframe(df_code.head())
 
-df_code = df_code.rename(columns={"romanized_amphoe_short":"requested_amphoe"})
+df_code = df_code.rename(columns={"amphoeEN":"district"})
+st.dataframe(df.head())
+st.dataframe(df_code.head())
 
 df = pd.merge(
     df,
-    df_code[["requested_amphoe", "amphoe_id"]],
-    on="requested_amphoe",
+    df_code[["district", "amphoe_id"]],
+    on="districts",
     how="left"  # ใช้ 'left' เพื่อคงข้อมูล df หลักไว้ทั้งหมด
 )
 st.dataframe(df.head())
