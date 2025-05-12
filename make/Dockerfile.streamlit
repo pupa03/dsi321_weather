@@ -10,8 +10,9 @@ RUN apt-get update && \
     apt-get install -y curl git && \
     pip install --no-cache-dir -r /tmp/requirements.txt && \
     pip install --upgrade streamlit && \
-    rm -rf /var/lib/apt/lists/* \
-    mkdir -p /app/save && touch /app/save/.keep
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir -p /app/save && \
+    touch /app/save/.keep
 
 COPY streamlit /app
 

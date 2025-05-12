@@ -59,6 +59,7 @@ services:
     volumes:
       - ./make/wait-for-server.sh:/wait-for-server.sh:ro
       - ./work:/home/jovyan/work:rw
+      - ./save:/home/jovyan/save:rw
     entrypoint: ["/wait-for-server.sh"]
     # networks:
     #   - prefect-network

@@ -97,7 +97,7 @@ async def fetch_pollution_data(coord_df, dt, localtime, batch_size=300):
 
 
 @task
-async def fetch_weather_data(df_sample, dt, localtime, batch_size=300):  #sample
+async def fetch_weather_data(coord_df, dt, localtime, batch_size=300):  #sample
     WEATHER_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
     
     async def fetch_row(session, row):
@@ -229,8 +229,8 @@ async def main_flow():
     coord_df = pd.read_csv(coord_path)
     # df_sample = coord_df.sample(10)
     
-    pollution_results = await fetch_pollution_data(df_sample, dt, localtime)
-    weather_results = await fetch_weather_data(df_sample, dt, localtime)
+    pollution_results = await fetch_pollution_data(coord_df, dt, localtime)
+    weather_results = await fetch_weather_data(coord_df, dt, localtime)
     
     pollution_data = clean_data(pollution_results)
     weather_data = clean_data(weather_results)

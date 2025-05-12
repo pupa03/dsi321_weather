@@ -64,13 +64,13 @@ m = folium.Map(location=[13.5, 100.7], zoom_start=6)
 
 # 4. สร้าง Choropleth map
 folium.Choropleth(
-    geo_data=amphoe_geojson,
+    geo_data=amphoe_geojson, # ไฟล์ geojson
     data=df,
     columns=["district_id", "components_pm2_5"],  # รหัสอำเภอ และค่า
     key_on="feature.properties.CC_2",  # เปลี่ยนตามโครงสร้าง GeoJSON
     fill_color="YlOrRd",
-    fill_opacity=0.7,
-    line_opacity=0.2,
+    fill_opacity=0.8,
+    line_opacity=0,
     legend_name="PM2.5 (µg/m³)",
 ).add_to(m)
 
