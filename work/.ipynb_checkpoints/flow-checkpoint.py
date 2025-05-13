@@ -23,7 +23,7 @@ SECRET_KEY = os.getenv("LAKEFS_SECRET_KEY")
 lakefs_endpoint = os.getenv("LAKEFS_ENDPOINT", "http://lakefs-dev:8000")
 
 @task
-async def fetch_pollution_data(coord_df, dt, localtime, batch_size=300):
+async def fetch_pollution_data(coord_df, batch_size=250):
     POLLUTION_ENDPOINT = "http://api.openweathermap.org/data/2.5/air_pollution"
 
     async def fetch_row(session, row):
@@ -43,7 +43,9 @@ async def fetch_pollution_data(coord_df, dt, localtime, batch_size=300):
             
             async with session.get(POLLUTION_ENDPOINT, params=params) as response:
                 data = await response.json()
-
+                dt = datetime.utcnow()
+                thai_tz = pytz.timezone('Asia/Bangkok')
+                localtime = dt.astimezone(thai_tz)
                 components = data['list'][0]['components']
                 pollution_dict = {
                     'timestamp': dt,
@@ -87,7 +89,7 @@ async def fetch_pollution_data(coord_df, dt, localtime, batch_size=300):
             batch = coord_df.iloc[i*batch_size:(i+1)*batch_size]
             tasks = [fetch_row(session, row) for _, row in batch.iterrows()]
             batch_results = await asyncio.gather(*tasks)
-            pollution_results.extend(batch_results)
+            pollution_results.extend([r for r in batch_results if r is not None])
 
             print(f"✅ เสร็จ batch {i+1}/{total_batches}")
             if i < total_batches - 1:
@@ -97,7 +99,7 @@ async def fetch_pollution_data(coord_df, dt, localtime, batch_size=300):
 
 
 @task
-async def fetch_weather_data(coord_df, dt, localtime, batch_size=300):  #sample
+async def fetch_weather_data(coord_df, batch_size=250):  #sample
     WEATHER_ENDPOINT = "https://api.openweathermap.org/data/2.5/weather"
     
     async def fetch_row(session, row):
@@ -116,7 +118,9 @@ async def fetch_weather_data(coord_df, dt, localtime, batch_size=300):  #sample
             }
             async with session.get(WEATHER_ENDPOINT, params=params) as response:
                 data = await response.json()
-
+                dt = datetime.utcnow()
+                thai_tz = pytz.timezone('Asia/Bangkok')
+                localtime = dt.astimezone(thai_tz)
                 weather_dict = {
                     'timestamp': dt,
                     'year': dt.year,
@@ -161,7 +165,7 @@ async def fetch_weather_data(coord_df, dt, localtime, batch_size=300):  #sample
             batch = coord_df.iloc[i*batch_size:(i+1)*batch_size]
             tasks = [fetch_row(session, row) for _, row in batch.iterrows()]
             batch_results = await asyncio.gather(*tasks)
-            weather_results.extend(batch_results)
+            weather_results.extend([r for r in batch_results if r is not None])
 
             print(f"✅ เสร็จ batch {i+1}/{total_batches}")
             if i < total_batches - 1:
@@ -170,11 +174,12 @@ async def fetch_weather_data(coord_df, dt, localtime, batch_size=300):  #sample
     return weather_results
 
 
-def clean_data(df):
+def clean_data(df, flow_timestamp):
     df = pd.DataFrame(df)
     
     df['province'] = df['province'].astype("string")
     df['district'] = df['district'].astype("string")
+    df["flow_timestamp"] = flow_timestamp
     return df
 
 
@@ -219,21 +224,19 @@ def save_to_lakefs_weather(df):
 @flow(name="main-flow", log_prints=True)
 async def main_flow():
     start_time = time.perf_counter()  # จับเวลา
-
-    dt = datetime.utcnow()
-    thai_tz = pytz.timezone('Asia/Bangkok')
-    localtime = dt.astimezone(thai_tz)
+    flow_timestamp = datetime.utcnow()
     
     BASE_DIR = os.path.abspath(os.path.join(os.getcwd(), ".."))  #/home/jovyan/work
     coord_path = os.path.join(BASE_DIR, "save", "district_coord.csv")
     coord_df = pd.read_csv(coord_path)
     # df_sample = coord_df.sample(10)
     
-    pollution_results = await fetch_pollution_data(coord_df, dt, localtime)
-    weather_results = await fetch_weather_data(coord_df, dt, localtime)
+    pollution_results = await fetch_pollution_data(coord_df)
+    weather_results = await fetch_weather_data(coord_df)
     
-    pollution_data = clean_data(pollution_results)
-    weather_data = clean_data(weather_results)
+    pollution_data = clean_data(pollution_results, flow_timestamp)
+    weather_data = clean_data(weather_results, flow_timestamp)
+
     
     
     end_time = time.perf_counter()  # จับเวลาอีกครั้ง

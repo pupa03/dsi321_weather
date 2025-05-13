@@ -12,18 +12,13 @@ st.title("แผนที่มลพิษรายอำเภอ (Choropleth)
 import os
 
 BASE_DIR = os.getcwd()
-# BASE_DIR = os.path.abspath(os.path.join(os.getcwd(), ".."))
-# st.write(BASE_DIR)
 geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
-# st.write(geojson_path)
 
-# กำหนด path แบบ relative จากตำแหน่งของไฟล์ Python นี้
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# geojson_path = os.path.join(BASE_DIR, "../save/gadm41_THA_2.json")
-
-# # โหลดไฟล์
-with open(geojson_path, "r", encoding="utf-8") as f:
-     amphoe_geojson = json.load(f)
+# โหลดไฟล์
+@st.cache()
+def load_data():
+    with open(geojson_path, "r", encoding="utf-8") as f:
+        district_geojson = json.load(f)
 
 
 # 1. โหลด GeoJSON อำเภอ
@@ -54,6 +49,14 @@ df = pd.merge(
     on="district",
     how="left"  # ใช้ 'left' เพื่อคงข้อมูล df หลักไว้ทั้งหมด
 )
+
+# merge ฝุ่นกับ weather
+# merged = pd.merge(
+#     weather_df,
+#     pollution_df,
+#     on=["district_id", "flow_timestamp"],
+#     how="inner"
+# )
 
 st.dataframe(df.head())
 
