@@ -1,32 +1,98 @@
 import streamlit as st
-import pandas as pd
 import folium
 from streamlit_folium import st_folium
+
+import pandas as pd
+import pyarrow.dataset as ds
+import s3fs
+
 import json
+from dotenv import load_dotenv
+import os
+
+import plotly.express as px
+import plotly.graph_objects as go
+import geopandas as gpd
+
+
 
 st.set_page_config(page_title="Choropleth Map", page_icon="🗺️")
 
 st.title("แผนที่มลพิษรายอำเภอ (Choropleth)")
 
+load_dotenv()
+ACCESS_KEY = os.getenv("LAKEFS_ACCESS_KEY")
+SECRET_KEY = os.getenv("LAKEFS_SECRET_KEY")
+lakefs_endpoint = os.getenv("LAKEFS_ENDPOINT", "http://lakefs-dev:8000")
 
-import os
+fs = s3fs.S3FileSystem(
+    key=ACCESS_KEY,
+    secret=SECRET_KEY,
+    client_kwargs={'endpoint_url': lakefs_endpoint}
+)
 
 BASE_DIR = os.getcwd()
-geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
 
-# โหลดไฟล์
-@st.cache()
-def load_data():
+### Function ____________________
+
+# โหลด GeoJSON
+@st.cache_data
+def load_geojson(geojson_path):
     with open(geojson_path, "r", encoding="utf-8") as f:
-        district_geojson = json.load(f)
+        return json.load(f)
+
+# โหลด Data
+@st.cache_data
+def load_data(lakefs_path):
+    dataset = ds.dataset(
+        lakefs_path,
+        format="parquet",
+        partitioning=["year", "month", "day", "hour"],
+        filesystem=fs
+    )
+    table = dataset.to_table()
+    df = table.to_pandas()
+    
+    return df
 
 
+# weather_path = 's3a://weather-data/main/weather.parquet'
+# weather_df = load_data(weather_path)
+
+# @st.cache_data
+# def load_weather_data():
+
+#     return df
+
+
+####________________________________
+
+# geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+
+# pollution_path = 'pollution-data/main/pollution.parquet'
+# pollution_df = load_data(pollution_path)
+# pollution_df = pollution_df.rename(columns={"components_pm2_5": "pm25"})
+# st.write('Pollution')
+# st.write(pollution_df)
+# st.write()
+
+
+
+# province_geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_1.json")
+# province_geojson = load_geojson(province_geojson_path)
+
+# district_geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+# district_geojson = load_geojson(district_geojson_path)
+
+####________________________________
 # 1. โหลด GeoJSON อำเภอ
+# district_geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+# district_geojson = load_geojson(district_geojson_path)
 # with open("../work/save/gadm41_THA_2.json", "r", encoding="utf-8") as f:
-    # amphoe_geojson = json.load(f)
+#     amphoe_geojson = json.load(f)
 
-st.write(amphoe_geojson)
-st.write(len(amphoe_geojson))
+# st.write(amphoe_geojson)
+# st.write(len(amphoe_geojson))
 
 # 2. โหลดข้อมูลค่ามลพิษ (เช่น pm2.5) รายอำเภอ
 # ต้องมีคอลัมน์: "amphoe_code" (หรือรหัสอำเภอที่ตรงกับ GeoJSON) และ "pm25"
@@ -58,7 +124,52 @@ df = pd.merge(
 #     how="inner"
 # )
 
-st.dataframe(df.head())
+# st.dataframe(df.head())
+###______________________
+# map ตัวที่ผิดพลาด
+
+# BASE_DIR = os.path.abspath(os.path.join(os.getcwd(), ".."))
+# district_geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+
+# district_geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+# district_geojson = load_geojson(district_geojson_path)
+# st.write('district_geojson')
+# st.write(district_geojson_path)
+# st.write(district_geojson.keys())
+
+geojson_path = os.path.join(BASE_DIR, "save", "gadm41_THA_2.json")
+st.write('geojson_path')
+st.write(geojson_path) #/app/save/gadm41_THA_2.json
+gdf = gpd.read_file(geojson_path)
+st.dataframe(gdf.head())
+
+district_id_map = {
+    ("BuengKan", "BungKan"): "3801",
+    ("BuengKan", "BungKhongLong"): "3806",
+    ("BuengKan", "K.BungKhla"): "3808",
+    ("BuengKan", "PakKhat"): "3805",
+    ("BuengKan", "PhonCharoen"): "3802",
+    ("BuengKan", "Seka"): "3804",
+    ("BuengKan", "SiWilai"): "3807",
+    ("BuengKan", "SoPhisai"): "3803",
+    ("Chanthaburi", "MuangChanthaburi"): "2201",
+    ("KhonKaen", "WiangKao"): "4029"
+}
+
+def map_district_id(row):
+    return district_id_map.get((row["NAME_1"], row["NAME_2"]), None)
+
+gdf["district_id"] = gdf.apply(map_district_id, axis=1)
+
+# changed = gdf[gdf["district_id"].notna()]
+# print("อำเภอที่ถูกอัปเดต:", changed[["NAME_1", "NAME_2", "CC_2"]])
+
+# เอาค่าใหม่ (district_id จาก mapping) ไปแทนที่ค่าใน CC_2 เฉพาะแถวที่ไม่ใช่ None
+gdf["CC_2"] = gdf["district_id"].combine_first(gdf["CC_2"])
+
+# จากนั้นลบ column ชั่วคราว
+gdf = gdf.drop(columns=["district_id"])
+# gdf[gdf["NAME_1"] == "BuengKan"]
 
 
 
@@ -67,7 +178,7 @@ m = folium.Map(location=[13.5, 100.7], zoom_start=6)
 
 # 4. สร้าง Choropleth map
 folium.Choropleth(
-    geo_data=amphoe_geojson, # ไฟล์ geojson
+    geo_data=gdf, # ไฟล์ geojson
     data=df,
     columns=["district_id", "components_pm2_5"],  # รหัสอำเภอ และค่า
     key_on="feature.properties.CC_2",  # เปลี่ยนตามโครงสร้าง GeoJSON
@@ -79,7 +190,7 @@ folium.Choropleth(
 
 # Optional: ใส่ popup ชื่ออำเภอ
 folium.GeoJson(
-    amphoe_geojson,
+    gdf,
     name="อำเภอ",
     tooltip=folium.GeoJsonTooltip(
         fields=["NAME_2"],
@@ -92,32 +203,34 @@ folium.GeoJson(
 st_folium(m, height=700)
 
 
-# ดึงรหัสอำเภอทั้งหมดจาก GeoJSON
-geo_ids = set([
-    feature["properties"]["CC_2"]
-    for feature in amphoe_geojson["features"]
-])
-st.write(len(geo_ids))
-st.dataframe(geo_ids)
+####_______
+# ดึงรหัสอำเภอทั้งหมดจาก gdf
+geo_ids = set(gdf["CC_2"].astype(str))
+st.write(f"จำนวนรหัสอำเภอใน GeoDataFrame: {len(geo_ids)}")
+st.dataframe(sorted(geo_ids))
 
 # ดึงรหัสอำเภอที่มีใน df (ค่าฝุ่น)
 df_ids = set(df["district_id"].dropna().astype(int).astype(str))
+st.write(f"จำนวนรหัสอำเภอใน DataFrame ข้อมูลฝุ่น: {len(df_ids)}")
+st.dataframe(sorted(df_ids))
 
-st.dataframe(df_ids)
 # หาอำเภอที่ไม่มีข้อมูล (อยู่ใน geo แต่ไม่อยู่ใน df)
 missing_ids = geo_ids - df_ids
-st.write(missing_ids)
+st.write(f"จำนวนอำเภอที่ไม่มีค่าฝุ่น: {len(missing_ids)}")
+st.write(sorted(missing_ids))
 
-# ดึงชื่ออำเภอที่ไม่มีข้อมูล
+# ดึงชื่ออำเภอ-จังหวัดของอำเภอที่ไม่มีข้อมูล
+missing_rows = gdf[gdf["CC_2"].astype(str).isin(missing_ids)]
+
 missing_names = [
-    f"{feature['properties']['CC_2']} - {feature['properties']['NAME_1']} - {feature['properties']['NAME_2']}"
-    for feature in amphoe_geojson["features"]
-    if feature["properties"]["CC_2"] in missing_ids
+    f"{row['CC_2']} - {row['NAME_1']} - {row['NAME_2']}"
+    for _, row in missing_rows.iterrows()
 ]
 
 # แสดงผล
 st.markdown(f"### ❌ อำเภอที่ไม่มีค่าฝุ่น (pm2.5): {len(missing_names)} รายการ")
 st.write(missing_names)
+
 
 ###
 #มี เลขไม่ตรง
@@ -152,7 +265,7 @@ geo_df = pd.DataFrame([
         "NAME_1": feature["properties"]["NAME_1"],  # จังหวัด
         "NAME_2": feature["properties"]["NAME_2"]   # อำเภอ
     }
-    for feature in amphoe_geojson["features"]
+    for feature in gdf["features"]
 ])
 
 # ปรับชนิดข้อมูลให้แมพกันได้
