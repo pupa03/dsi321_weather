@@ -62,7 +62,7 @@ pollution_df = pollution_df.rename(columns={"components_pm2_5": "pm25"})
 
 coord_path = os.path.join(BASE_DIR, "save", "district_coord.csv")
 df_code = pd.read_csv(coord_path)
-df_code = df_code.rename(columns={"district_en":"district", "province_en":"province"})
+# df_code = df_code.rename(columns={"district_en":"district", "province_en":"province"})
 
 # merge province_id
 pollution_df = pd.merge(
@@ -115,6 +115,17 @@ color_map = {
     "Hazardous": "maroon",
     "Very Hazardous": "brown"
 }
+
+aqi_continuous_colors = [
+    [0.0, "#00e400"],     # Good: Green
+    [0.1, "#ffff00"],     # Moderate: Yellow
+    [0.2, "#ff7e00"],     # USG: Orange
+    [0.5, "#ff0000"],     # Unhealthy: Red
+    [1.0, "#8f3f97"]      # Very Unhealthy: Purple
+]
+
+
+
 
 #__________ Time Filter __________
 
@@ -216,6 +227,7 @@ elif level == "อำเภอ (District)":
     customdata = map_df[["province_th", "district_th", "pm25"]].values
     
 
+# normalized = pm25 / 250.4  # เพราะเราอยากจบที่ Very Unhealthy
 # plot
 fig = px.choropleth_mapbox(
     map_df,
@@ -225,22 +237,33 @@ fig = px.choropleth_mapbox(
     # color="aqi_level",
     # color_discrete_map=color_map,
     color="pm25",
-    color_continuous_scale="YlOrRd",
+    # color_continuous_scale="YlOrRd",
+    color_continuous_scale=aqi_continuous_colors,
+    range_color=(0, 250.4),
     mapbox_style="carto-positron",
     zoom=5,
     center={"lat": 13.5, "lon": 100.5},
     opacity=0.6,
     labels={"pm25": "ค่าฝุ่น PM2.5 ", "province_th": "จังหวัด "},
-    # hover_name=locations,
-    hover_name=hover_name,  # 👈 เปลี่ยนชื่อที่จะโชว์
+    hover_name=hover_name,
     hover_data=hover_data,
-    animation_frame="local_timestamp_15min"
+    # animation_frame="local_timestamp_15min"
+
 )
 
-# เพิ่ม pop up
+# แก้ pop up
 fig.update_traces(
     hovertemplate=hovertemplate,
     customdata=customdata,
 )
 
 st.plotly_chart(fig, use_container_width=True)
+
+#######
+# Score Card
+# Time Serie
+# Interactive?
+# Alert?
+# จุด pm2.5 สูงสุด ณ เวลา สถานที่ == 
+# แก้ date
+# แก้ backgroud เปลี่ยนสีหลังเป็นขาว

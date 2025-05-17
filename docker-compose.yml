@@ -99,7 +99,7 @@ services:
       depends_on:
         - lakefs-dev
         - prefect-server
-
+        
 # volumes:
 #   lakefs_data:
 
