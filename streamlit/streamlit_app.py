@@ -1,6 +1,7 @@
 import streamlit as st
 
 import pandas as pd
+from datetime import datetime, timedelta
 import pyarrow.dataset as ds
 import s3fs
 
@@ -26,28 +27,33 @@ BASE_DIR = os.getcwd()
 
 ### ________________________
 
-# โหลด GeoJSON
-
-# @st.cache_data
-# def load_geojson(geojson_path):
-#     with open(geojson_path, "r", encoding="utf-8") as f:
-#         return json.load(f)
-
 # โหลด Data
-@st.cache_data
+@st.cache_data(ttl=300)
 def load_data(lakefs_path):
+
     dataset = ds.dataset(
         lakefs_path,
         format="parquet",
-        partitioning=["year", "month", "day", "hour"],
+        partitioning="hive",
         filesystem=fs
     )
     table = dataset.to_table()
     df = table.to_pandas()
-    
-    return df
 
-@st.cache_data
+    # รวม column ปีเดือนวันเป็น timestamp (ถ้ายังไม่มี timestamp อยู่)
+    # if "timestamp" not in df.columns and all(col in df.columns for col in ["year", "month", "day", "hour"]):
+    #     df["timestamp"] = pd.to_datetime(df[["year", "month", "day", "hour"]])
+
+    # กรองแค่ 3 วันล่าสุด
+    max_time = df["timestamp"].max()
+    start_time = max_time - pd.Timedelta(days=1)
+    df_recent = df[df["timestamp"] >= start_time]
+
+    return df_recent
+    
+    # return df
+
+@st.cache_data()
 def load_gdf(geojson_path):
     gdf = gpd.read_file(geojson_path)
     return gdf
@@ -63,6 +69,8 @@ pollution_df = pollution_df.rename(columns={"components_pm2_5": "pm25"})
 coord_path = os.path.join(BASE_DIR, "save", "district_coord.csv")
 df_code = pd.read_csv(coord_path)
 # df_code = df_code.rename(columns={"district_en":"district", "province_en":"province"})
+
+# st.write(pollution_df)
 
 # merge province_id
 pollution_df = pd.merge(
@@ -84,7 +92,7 @@ district_gdf = load_gdf(district_geojson_path)
 #### _____________________________________________
 #__________ Title ________________
 # st.set_page_config(page_title="Choropleth Map", page_icon="🗺️")
-st.title("แผนทีค่าฝุ่น PM2.5 รายอำเภอ")
+st.title("แผนที่ค่าฝุ่น PM2.5 รายอำเภอ")
 
 #__________ AQI __________________
 
@@ -203,7 +211,7 @@ elif level == "อำเภอ (District)":
 
     map_df = (
     df_window
-    .sort_values("timestamp", ascending=False)
+    .sort_values("timestamp")
     .drop_duplicates(["local_timestamp_15min", "district_id"])
 )
     map_df["aqi_level"] = map_df["pm25"].apply(get_aqi_level)
@@ -220,34 +228,31 @@ elif level == "อำเภอ (District)":
         "local_timestamp_15min": False
     }
     hovertemplate = (
-        "<b>จังหวัด : </b> %{customdata[0]}<br>"
-        "<b>อำเภอ : </b> %{customdata[1]}<br>"
-        "<b>PM2.5 : </b> %{customdata[2]:.2f}<extra></extra>"
+        "<b>จังหวัด :</b> %{customdata[0]}<br>"
+        "<b>อำเภอ :</b> %{customdata[1]}<br>"
+        "<b>PM2.5 :</b> %{customdata[2]:.2f}<extra></extra>"
     )
     customdata = map_df[["province_th", "district_th", "pm25"]].values
     
 
-# normalized = pm25 / 250.4  # เพราะเราอยากจบที่ Very Unhealthy
 # plot
 fig = px.choropleth_mapbox(
     map_df,
     geojson=geojson,
     locations=locations,
     featureidkey=featureidkey,
-    # color="aqi_level",
-    # color_discrete_map=color_map,
     color="pm25",
-    # color_continuous_scale="YlOrRd",
-    color_continuous_scale=aqi_continuous_colors,
-    range_color=(0, 250.4),
+    color_continuous_scale="YlOrRd",
+    # color_continuous_scale=aqi_continuous_colors,
+    range_color=(0, 100),
     mapbox_style="carto-positron",
     zoom=5,
     center={"lat": 13.5, "lon": 100.5},
     opacity=0.6,
     labels={"pm25": "ค่าฝุ่น PM2.5 ", "province_th": "จังหวัด "},
-    hover_name=hover_name,
-    hover_data=hover_data,
-    # animation_frame="local_timestamp_15min"
+    # hover_name=hover_name,
+    # hover_data=hover_data,
+    animation_frame="local_timestamp_15min"
 
 )
 
@@ -262,8 +267,8 @@ st.plotly_chart(fig, use_container_width=True)
 #######
 # Score Card
 # Time Serie
-# Interactive?
-# Alert?
-# จุด pm2.5 สูงสุด ณ เวลา สถานที่ == 
-# แก้ date
-# แก้ backgroud เปลี่ยนสีหลังเป็นขาว
+# Interactive
+# Alert
+# date
+# backgroud
+# UI

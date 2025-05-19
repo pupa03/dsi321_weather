@@ -9,7 +9,5 @@ fsspec==2025.3.2
 s3fs==2025.3.2
 pytz==2024.1
 streamlit==1.45.0
-folium==0.19.5
-leafmap==0.45.0
 nest_asyncio==1.6.0
 geopandas==1.0.1
