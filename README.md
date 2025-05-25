@@ -123,15 +123,16 @@
 โครงงาน Real-Time PM2.5 Monitoring Dashboard เป็นโอกาสสำคัญในการผสานเป้าหมายทางการศึกษากับการใช้งานจริง โดยต่อยอดจากกรอบแนวคิดของโครงการ papapipeline โดยใช้ Docker, Prefect, LakeFS, และ Streamlit รวมเข้าด้วยกันในการทำ Flow ในการเก็บข้อมูลจนไปถึงการแสดง Data ในรูปแบบ Dashboard บน Streamlit
 
 
-## Start the project ##
+# Start the project
 
-1. Install Docker on your device.
+1. Install Docker on your device. \
+https://www.docker.com/products/docker-desktop
 
-2. Clone this Repository:
+3. Clone this Repository:
 ```
 git clone https://github.com/pupa03/dsi321_2025.git
 ```
-Then go into folder dsi321_2025 where docker-compose.yml exist. \
+Then go into folder dsi321_2025 where **docker-compose.yml** exist.
 ```
 cd dsi321_2025
 ```
@@ -152,7 +153,7 @@ docker compose up --build -d
 > chmod +x make/wait-for-server.sh
 > ```
 
-4. สร้างไฟล์ .env
+4. Create file .env
 
 ```
 OPENWEATHER_API_KEY=YOUR_API_KEY
@@ -180,6 +181,6 @@ python deploy.py
 On Deployment menu should show **main-flow** schedule. \
 wait untill flow finish for first time then check you data on LakeFS.
 
-9. Open streamlit to see dashboard (port:8501)
+8. Open Streamlit to see dashboard (port:8501)
 ![demo1](demo1.png)
 ![demo2](demo2.png)
