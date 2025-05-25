@@ -123,3 +123,40 @@
 
 ## 6. บทสรุป ##
 โครงงาน Real-Time PM2.5 Monitoring Dashboard เป็นโอกาสสำคัญในการผสานเป้าหมายทางการศึกษากับการใช้งานจริง โดยต่อยอดจากกรอบแนวคิดของโครงการ papapipeline ที่ใช้ Pr
+
+
+### Start the project
+
+1. Install Docker on your device.
+
+2. Run Docker :
+```
+docker compose up --build -d
+```
+
+3. สร้างไฟล์ .env
+
+```
+OPENWEATHER_API_KEY=YOUR_API_KEY
+
+LAKEFS_ACCESS_KEY=access_key
+LAKEFS_SECRET_KEY=secret_key
+LAKEFS_ENDPOINT=http://lakefs-dev:8000/
+```
+
+4. Create repositories on LakeFS (port:8000)
+   1) weather-data
+   2) pollution-data
+
+5. Deploy flow on jupyter terminal (port:8888)
+```
+python deploy.py
+```
+
+6. Check flow on Prefect-server (port:4200)
+On Deployment menu should show main-flow schedule. <\br>
+wait untill flow finish 1 time then check you data on LakeFS.
+
+7. Open streamlit to see dashboard (port:8501)
+![demo1](demo1.png)
+![demo2](demo2.png)
