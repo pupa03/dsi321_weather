@@ -1,8 +1,6 @@
 # Real-Time PM 2.5 Monitoring Dashboard
-โดย ภูมิภัทร จักษุจินดา เลขทะเบียนนักศึกษา 6524651335
 
-
-## 1. ความเป็นมา ##
+### 1. ความเป็นมา ##
 
 ในยุคปัจจุบันที่ขับเคลื่อนด้วยข้อมูล ความสามารถในการรวบรวม ประมวลผล และแสดงผลข้อมูลแบบเรียลไทม์ ถือเป็นปัจจัยสำคัญที่ช่วยสนับสนุนการตัดสินใจในหลากหลายอุตสาหกรรม ตั้งแต่การเกษตรไปจนถึงการวางผังเมือง โดยเฉพาะในบริบทของคุณภาพอากาศ การมีระบบที่สามารถตรวจวัดค่าฝุ่นละอองในอากาศแบบเรียลไทม์ได้อย่างแม่นยำ จะช่วยให้ภาครัฐ ภาคเอกชน และประชาชนสามารถรับมือกับปัญหาฝุ่นละอองขนาดเล็ก (PM2.5) ได้อย่างมีประสิทธิภาพและทันท่วงที
 
@@ -15,7 +13,7 @@
 โครงการนี้มีระยะเวลาดำเนินการทั้งหมด 3 สัปดาห์ ครอบคลุมการออกแบบ พัฒนา และจัดแสดงผลระบบแดชบอร์ดสำหรับการติดตามค่าฝุ่น PM2.5 แบบเรียลไทม์ โดยใช้เครื่องมือสำคัญ ได้แก่ Prefect, Docker, PostgreSQL, และเครื่องมือสำหรับสร้างแดชบอร์ด เช่น Streamlit หรือ Looker Studio โดยมีจุดมุ่งหมายให้สามารถนำไปต่อยอดใช้งานได้จริง ทั้งในบริบทของการวิจัย การเฝ้าระวังคุณภาพอากาศในชุมชน หรือการสนับสนุนการวางแผนในระดับท้องถิ่น
 
 
-## 2. วัตถุประสงค์ของโครงงาน ## 
+### 2. วัตถุประสงค์ของโครงงาน ## 
 วัตถุประสงค์หลักของโครงงาน Real-Time PM2.5 Monitoring Dashboard คือการพัฒนาระบบ pipeline ที่สามารถเก็บ ประมวลผล จัดเก็บ และแสดงผลข้อมูลค่าฝุ่นละอองขนาดเล็ก PM2.5 ได้แบบเรียลไทม์ทุก 15 นาที โดยมีเป้าหมายเพื่อแสดงกระบวนการทำงานของระบบด้านวิศวกรรมข้อมูล (Data Engineering) ที่ทันสมัย โดยมีวัตถุประสงค์เฉพาะดังนี้:
 
 **2.1 การเก็บข้อมูล** : พัฒนา pipeline โดยใช้ Prefect 2 ในการดึงข้อมูลค่าฝุ่น PM2.5 และข้อมูลสภาพอากาศอื่นๆ (เช่น อุณหภูมิ ความชื้น ความเร็วลม) จาก OpenWeatherMap API ทุก ๆ 15 นาที สำหรับพื้นที่กรุงเทพมหานครหรือตำบลอื่นในประเทศไทย
@@ -29,7 +27,7 @@
 **2.5 การวิเคราะห์เชิงคาดการณ์** : มีการใช้ Machine Learning เบื้องต้น เช่น regression เพื่อพยากรณ์แนวโน้มค่าฝุ่น PM2.5 และหาปัจจัยที่ส่งผลให้ค่าฝุ่น PM2.5 มีปริมาณมาก โดยอิงจากข้อมูลที่เก็บมา เพื่อแสดงศักยภาพของระบบในการวิเคราะห์เชิงลึก
 
 
-## 3. ประโยชน์ที่ได้รับ ##
+### 3. ประโยชน์ที่ได้รับ ##
 
 โครงการ Real-Time Weather Data Pipeline มอบประโยชน์หลากหลายแก่ผู้มีส่วนได้ส่วนเสีย ไม่ว่าจะเป็นสถาบันการศึกษา นักเรียน นักศึกษา และองค์กรที่สนใจด้านวิศวกรรมข้อมูล โดยประโยชน์เหล่านี้สอดคล้องกับเป้าหมายทางการศึกษาของ papapipeline และสามารถนำไปใช้จริงได้ในสถานการณ์ต่าง ๆ
 
@@ -48,7 +46,7 @@
 * การมีส่วนร่วมของชุมชน (Community Engagement): สอดคล้องกับโครงการส่งเสริมความรู้ด้านข้อมูล (data literacy) และการพัฒนาแบบโอเพ่นซอร์ส โดยเฉพาะในบริบทด้านการศึกษาและท้องถิ่น เช่นในประเทศไทยตามแนวทางของ papapipeline
 
 
-## 4. ตัวชี้วัดความสำเร็จของโครงงาน (Key Performance Indicators)
+### 4. ตัวชี้วัดความสำเร็จของโครงงาน (Key Performance Indicators) ##
 เพื่อประเมินความสำเร็จของโครงงานตลอดระยะเวลา 3 สัปดาห์ ได้กำหนดตัวชี้วัดหลัก (KPI) ใน 3 ด้าน ได้แก่ ด้านเทคนิค ด้านการศึกษา และด้านการใช้งานจริง ดังนี้
 
 **4.1 ตัวชี้วัดด้านเทคนิค (Technical KPIs)**
@@ -98,7 +96,7 @@
 * วิธีวัดผล: แจกแบบสอบถามหรือสัมภาษณ์หลังนำเสนอระบบ
 
 
-## 5. ภาพรวมแผนดำเนินโครงการ ##
+### 5. ภาพรวมแผนดำเนินโครงการ ##
 ระยะเวลา: 3 สัปดาห์ (ประมาณ 10–15 ชั่วโมงต่อสัปดาห์)
 
 **ไทม์ไลน์:**
@@ -121,20 +119,40 @@
 * งบประมาณ: ต่ำมาก (ใช้เครื่องมือฟรีทั้งหมด ยกเว้นหากขยายระบบด้วยบริการคลาวด์)
 
 
-## 6. บทสรุป ##
-โครงงาน Real-Time PM2.5 Monitoring Dashboard เป็นโอกาสสำคัญในการผสานเป้าหมายทางการศึกษากับการใช้งานจริง โดยต่อยอดจากกรอบแนวคิดของโครงการ papapipeline ที่ใช้ Pr
+### 6. บทสรุป ##
+โครงงาน Real-Time PM2.5 Monitoring Dashboard เป็นโอกาสสำคัญในการผสานเป้าหมายทางการศึกษากับการใช้งานจริง โดยต่อยอดจากกรอบแนวคิดของโครงการ papapipeline โดยใช้ Docker, Prefect, LakeFS, และ Streamlit รวมเข้าด้วยกันในการทำ Flow ในการเก็บข้อมูลจนไปถึงการแสดง Data ในรูปแบบ Dashboard บน Streamlit
 
 
-### Start the project
+## Start the project ##
 
 1. Install Docker on your device.
 
-2. Run Docker :
+2. Clone this Repository:
+```
+git clone https://github.com/pupa03/dsi321_2025.git
+```
+Then go into folder dsi321_2025 where docker-compose.yml exist. \
+```
+cd dsi321_2025
+```
+```
+.
+├── dsi321_2025
+│   ├── docker-compose.yml
+```
+
+3. Run Docker :
 ```
 docker compose up --build -d
 ```
+> [!NOTE]
+> Prefect worker might not get denied permission on wait-for-server.sh \
+> You can give permission by : 
+> ```
+> chmod +x make/wait-for-server.sh
+> ```
 
-3. สร้างไฟล์ .env
+4. สร้างไฟล์ .env
 
 ```
 OPENWEATHER_API_KEY=YOUR_API_KEY
@@ -143,20 +161,25 @@ LAKEFS_ACCESS_KEY=access_key
 LAKEFS_SECRET_KEY=secret_key
 LAKEFS_ENDPOINT=http://lakefs-dev:8000/
 ```
+> [!NOTE]
+> Your LakeFS_KEY is on docker-compose.yml
 
-4. Create repositories on LakeFS (port:8000)
+
+5. Create repositories on LakeFS (port:8000)
    1) weather-data
    2) pollution-data
 
-5. Deploy flow on jupyter terminal (port:8888)
+6. Deploy flow on jupyter terminal (port:8888)
 ```
 python deploy.py
 ```
+> [!WARNING]
+> Don't forget to check that your Prefect-worker still running.
 
-6. Check flow on Prefect-server (port:4200)
-On Deployment menu should show main-flow schedule. <\br>
-wait untill flow finish 1 time then check you data on LakeFS.
+7. Check flow on Prefect-server (port:4200) \
+On Deployment menu should show **main-flow** schedule. \
+wait untill flow finish for first time then check you data on LakeFS.
 
-7. Open streamlit to see dashboard (port:8501)
+9. Open streamlit to see dashboard (port:8501)
 ![demo1](demo1.png)
 ![demo2](demo2.png)
