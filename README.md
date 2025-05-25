@@ -181,8 +181,8 @@ python deploy.py
 On Deployment menu should show **main-flow** schedule. \
 wait untill flow finish for first time then check you data on LakeFS.
 
-8. Open Streamlit to see dashboard (port:8501) \
+8. Open Streamlit to see dashboard (port:8501) 
 
-![demo1](demo1.png) \
+![demo1](demo1.png) 
 
 ![demo2](demo2.png)
