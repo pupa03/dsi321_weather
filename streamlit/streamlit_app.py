@@ -233,7 +233,7 @@ elif level == "อำเภอ (District)":
         "<b>PM2.5 :</b> %{customdata[2]:.2f}<extra></extra>"
     )
     customdata = map_df[["province_th", "district_th", "pm25"]].values
-    
+
 
 # plot
 fig = px.choropleth_mapbox(
@@ -250,16 +250,16 @@ fig = px.choropleth_mapbox(
     center={"lat": 13.5, "lon": 100.5},
     opacity=0.6,
     labels={"pm25": "ค่าฝุ่น PM2.5 ", "province_th": "จังหวัด "},
-    # hover_name=hover_name,
-    # hover_data=hover_data,
+    hover_name=hover_name,
+    hover_data=hover_data,
     animation_frame="local_timestamp_15min"
 
 )
 
 # แก้ pop up
 fig.update_traces(
-    hovertemplate=hovertemplate,
-    customdata=customdata,
+    # hovertemplate=hovertemplate,
+    # customdata=customdata,
 )
 
 st.plotly_chart(fig, use_container_width=True)
